@@ -1,0 +1,11 @@
+======================== Estruturas de dados utilizadas ========================
+
+Fila
+- Fila simplificada, sem resize. Pois sempre vamos alocar no máximo V elementos
+    na fila.
+
+GrafoInf
+
+TabelaDeSimbolos
+
+Grafo

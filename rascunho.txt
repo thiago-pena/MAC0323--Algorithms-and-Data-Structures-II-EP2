@@ -1,0 +1,15 @@
+medidas:
+    // quantos vértices e arestas o grafo tem?
+    // Qual o grau médio dos vértices?
+    O grafo é denso (o número de arestas é da ordem do número de vértices ao quadrado)?
+
+• conexidade:
+    // o grafo construı́do é conexo?
+    // Quantas componentes ele tem?
+    // Qual o tamanho médio das componentes?
+    // E da maior (menor)?
+
+• caminhos e ciclos:
+    dadas duas palavras a e b do dicionário, existe um caminho que liga a a b?
+    Qual a distância média (número de palavras em um menor caminho do grafo entre duas palavras) entre duas palavras no grafo?
+    As palavras aparecem em algum ciclo do grafo?

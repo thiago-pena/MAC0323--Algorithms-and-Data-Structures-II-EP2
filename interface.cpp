@@ -12,24 +12,29 @@ class Grafo{
         retorna -1 se a palavra já está no grafo ou tem tamanho menor que k*/
     }
 
+    // Ok
     int vertices(){
         /* Retorna o número de vértices do grafo*/
     }
 
+    // Ok
     int arestas(){
-        /* Retorna o número de vértices do grafo*/
+        /* Retorna o número de arestas do grafo*/
     }
 
+    // Ok
     int componentes(){
         /* Retorna o número de componentes do grafo */
     }
 
+    // Ok
     bool conexo(){
         /* Retorna se o grafo é ou não conexo */
     }
 
+    // Ok
     int tamComp(string palavra){
-        /* Retorna o tamanha da componente conexa onde está a palavra
+        /* Retorna o tamanho da componente conexa onde está a palavra
         ou -1 caso ela não se encontre no grafo */
     }
 
