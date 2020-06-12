@@ -3,8 +3,6 @@
 #include "fila.hpp"
 using namespace std;
 
-#define INITIAL_SIZE 7
-
 /*
     ./ep2 nome_arquivo k
         -> modo pré-definido
@@ -15,7 +13,7 @@ using namespace std;
 
 class Grafo {
     public:
-        Grafo(int k); // cria um grafo com as palavras com pelo menos k letras de um dicionário
+        Grafo(int V);
         int vertices();
         int arestas();
         int arcos(); // remover
@@ -31,6 +29,7 @@ class Grafo {
         int tamMinComp();
         int dist(int v, int w);
         bool dfsCycle(int v);
+        bool dfsCycle2(int x, int y);
         void bfs(); // tornar private
     private:
         struct node {
@@ -40,19 +39,19 @@ class Grafo {
         int V;
         int A; // arestas
         int E; // arcos
-        int size; // tamanho do vetor de adjacências
         node **adj;
         bool insertArc(int v, int w);
         int * degree();
         void dfsR(int v, bool *marked);
-        void bfsVertex(int v, int *dist);
+        void bfsVertex(int v, int *dist, int *pred);
         bool dfsRcycle(int u, bool *marked, int *pred);
+        void bfsVertex2(int v, int *dists, int *pred);
 };
 
 
-Grafo::Grafo(int k): V(INITIAL_SIZE), A(0), E(0), size(INITIAL_SIZE), adj(new node * [INITIAL_SIZE])
+Grafo::Grafo(int V): V(V), A(0), E(0), adj(new node * [V])
 {
-
+    for (int i = 0; i < V; i++) adj[i] = nullptr;
 }
 
 void Grafo::show() {
@@ -97,6 +96,7 @@ bool Grafo::insertEdge(int v, int w) {
         E++;
         return true;
     }
+    return false;
 }
 
 // Retorna um vetor com o grau de cada vértice
@@ -179,50 +179,83 @@ bool Grafo::dfsRcycle(int u, bool *marked, int *pred) {
             pred[w] = u;
             if(dfsRcycle(w, marked, pred)) return true;
         }
-        else if (pred[w] == w && pred[w] != u) // Chegou no primeiro vértice e não é o caminho de volta
+        else if (pred[w] == w && pred[u] != w) { // chegou no vértice inicial e não é o caminho de volta
             return true;
-    }
-    return false;
-}
-
-/* Retorna verdadeiro caso o vértice a e o v esteja em algum ciclo,
-falso caso contrário */
-/* Retorna verdadeiro caso exista um ciclo que contenha os vértices x e y,
-falso caso contrário */
-bool Grafo::dfsCycle2(int x, int y) {
-    bool *marked = new bool[V];
-    int *pred = new int[V];
-    bool temCiclo;
-
-    // calcula o caminho mínimo (BFS)
-        // se não há caminho -> FALSE
-
-
-    // usa DFS para tentar encontrar um novo caminho diferente
-
-    for (int x = 0; x < V; x++) {
-        marked[x] = false;
-        pred[x] = -1;
-    }
-    pred[x] = x;
-    temCiclo = dfsRcycle(x, marked, pred);
-    delete [] marked;
-    delete [] pred;
-    return temCiclo;
-}
-
-bool Grafo::dfsRcycle2(int u, bool *marked, int *pred) {
-    marked[u] = true;
-    for (node *a = adj[u]; a != nullptr; a = a->next) {
-        int w = a->w;
-        if (!marked[w]) {
-            pred[w] = u;
-            if(dfsRcycle(w, marked, pred)) return true;
         }
-        else if (pred[w] == w && pred[w] != u) // Chegou no primeiro vértice e não é o caminho de volta
-            return true;
+
     }
     return false;
+}
+
+
+/* Retorna verdadeiro caso o vértice v esteja em algum ciclo,
+falso caso contrário */
+// Supõe-se um ciclo simples
+// x != y
+bool Grafo::dfsCycle2(int x, int y) {
+    // encontra o caminho mínimo de x para y
+    if (x < 0 || x > V || y < 0 || y >  V || x == y) return false;
+    int *distArr = new int[V];
+    int *pred = new int[V];
+    bfsVertex(x, distArr, pred);
+
+    int dist_xy = distArr[y];
+    if (dist_xy == -1) return false; // se não tem caminho -> retorna FALSE
+
+    // reutilizar o vetor pred para evitar andar pelo caminho encontrado
+        // Cria um novo vetor, inicializa como -1, refaz o caminho de b para a
+    int *pred2 = new int[V];
+    for (int i = 0; i < V; i++) pred2[i] = -1;
+    int limite = 0;
+    for (int i = y; pred[i] != i; i = pred[i])
+    {
+        pred2[i] = pred[i];
+    }
+
+    pred2[x] = x;
+// delete pred;
+    // tentar encontrar um novo caminho de a para b que não seja o primeiro caminho
+    // bool *marked = new bool[V];
+    for (int v = 0; v < V; v++) {
+        // marked[v] = false;
+        distArr[v] = -1;
+    }
+
+    // cout << "------------------------" << endl;
+    // cout << "Teste pred2" << endl;
+    // for (int i = 0; i < V; i++) cout << "\ti:" << i << ", pred: " << pred2[i] << endl;
+
+    bfsVertex2(x, distArr, pred2);
+    return distArr[y] != -1;
+}
+
+// Não reinicializa o vetor pred, para poder ignorar um caminho na dfs
+// Encontra as distâncias partindo de x sem passar pelo menor caminho em pred
+void Grafo::bfsVertex2(int v, int *dists, int *pred) {
+    // Fila<int> fila = new Fila<int>(V);
+    Fila<int> fila = Fila<int>(V);
+    for (int i = 0; i < V; i++) {
+        dists[i] = -1;
+        // pred[i] = -1;
+    }
+
+    fila.insere(v);
+    dists[v] = 0;
+    // pred[v] = v;
+    while (!fila.vazia()) {
+        int u = fila.remove();
+        for (node *a = adj[u]; a != nullptr; a = a->next) { // poderia usar int i sem problema pois teria escopo apenas no for
+            int w = a->w;
+            if (dists[w] == -1 && pred[w] != u) {;
+                fila.insere(w);
+                // cout << "\t\t\tu: " << u << ", w: " << w << endl;
+                // cout << "\t\t\tpu: " << pred[u] << ", pw: " << pred[w] << endl;
+                dists[w] = 1 + dists[u];
+                pred[w] = u;
+            }
+        }
+    }
+    // Como destruir a fila? @@@
 }
 
 /* Retorna se o grafo é ou não conexo */
@@ -277,35 +310,42 @@ int Grafo::tamMinComp() {
 caso os vértices sejam desconexos ou não estejam no grafo */
 int Grafo::dist(int v, int w) {
     if (v < 0 || v > V || w < 0 || w >  V) return -1;
-    int *distArr = new int(V);
-    bfsVertex(v, distArr);
-    int distancia = distArr[w];
-    delete [] distArr;
-    return distancia;
+    int *distArr = new int[V];
+    int *pred = new int[V];
+    bfsVertex(v, distArr, pred);
+    int ans = distArr[w];
+    // delete [] distArr;
+    // delete pred;
+    return ans;
 }
 
 
-void Grafo::bfsVertex(int v, int *dist) {
-    int d = 0;
+void Grafo::bfsVertex(int v, int *dists, int *pred) {
     // Fila<int> fila = new Fila<int>(V);
     Fila<int> fila = Fila<int>(V);
-    for (int i = 0; i < V; i++) dist[i] = -1;
+    for (int i = 0; i < V; i++) {
+        dists[i] = -1;
+        pred[i] = -1;
+    }
 
     fila.insere(v);
-    dist[v] = d;
+    dists[v] = 0;
+    pred[v] = v;
     while (!fila.vazia()) {
         int u = fila.remove();
-        d++;
         for (node *a = adj[u]; a != nullptr; a = a->next) { // poderia usar int i sem problema pois teria escopo apenas no for
             int w = a->w;
-            if (dist[w] == -1) {
+            if (dists[w] == -1) {;
                 fila.insere(w);
-                dist[w] = d;
+                dists[w] = 1 + dists[u];
+                pred[w] = u;
             }
         }
     }
     // Como destruir a fila? @@@
 }
+
+
 
 void Grafo::bfs() {
     bool *marked = new bool[V];
