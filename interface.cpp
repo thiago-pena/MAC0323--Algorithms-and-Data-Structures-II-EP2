@@ -44,12 +44,12 @@ class Grafo{
     }
 
     bool emCiclo(string a){
-        /* Retorna verdadeiro casa a palavra esteja em algum ciclo,
+        /* Retorna verdadeiro caso a palavra esteja em algum ciclo,
         falso caso contrário */
     }
 
     bool emCiclo(string a, string b){
-        /* Retorna verdadeiro casa exista um ciclo que contenha ambas as palavras,
+        /* Retorna verdadeiro caso exista um ciclo que contenha ambas as palavras,
         falso caso contrário */
     }
 

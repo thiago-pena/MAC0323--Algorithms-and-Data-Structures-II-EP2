@@ -15,6 +15,8 @@ int main() {
     cnt += G->insertEdge(0, 1);
     cnt += G->insertEdge(3, 1);
     cnt += G->insertEdge(1, 3);
+    cnt += G->insertEdge(0, 2);
+    cnt += G->insertEdge(4, 5);
     G->show();
 
     cout << "V: " << G->vertices() << endl;
@@ -49,6 +51,11 @@ int main() {
                 cout << "\tDistância de " << i << " a " << j << ": " << G->dist(i, j) << endl;
             }
         }
+    }
+
+    cout << "Tem ciclo passando pelo vértice?" << endl;
+    for (int i = 0; i < G->vertices(); i++) {
+        cout << "\tTem ciclo começando em " << i << ": " << G->dfsCycle(i) << endl;
     }
 
 

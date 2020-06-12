@@ -3,7 +3,7 @@
 #include "fila.hpp"
 using namespace std;
 
-#define INITIAL_SIZE 6
+#define INITIAL_SIZE 7
 
 /*
     ./ep2 nome_arquivo k
@@ -30,6 +30,7 @@ class Grafo {
         int tamMaxComp();
         int tamMinComp();
         int dist(int v, int w);
+        bool dfsCycle(int v);
         void bfs(); // tornar private
     private:
         struct node {
@@ -45,6 +46,7 @@ class Grafo {
         int * degree();
         void dfsR(int v, bool *marked);
         void bfsVertex(int v, int *dist);
+        bool dfsRcycle(int u, bool *marked, int *pred);
 };
 
 
@@ -126,6 +128,7 @@ double Grafo::avgDegree2() {
     return (double) 2*E/V;
 }
 
+/* Retorna o número de componentes do grafo */
 int Grafo::componentes() {
     int comp = 0;
     bool *marked = new bool[V];
@@ -142,12 +145,84 @@ int Grafo::componentes() {
 
 void Grafo::dfsR(int v, bool *marked) {
     marked[v] = true;
-    // faz alguma coisa (imprime, calcula alguma coisa)
     for (node *a = adj[v]; a != nullptr; a = a->next) {
         int w = a->w;
         if (!marked[w])
             dfsR(w, marked);
     }
+}
+
+
+/* Retorna verdadeiro caso o vértice v esteja em algum ciclo,
+falso caso contrário */
+bool Grafo::dfsCycle(int v) {
+    bool *marked = new bool[V];
+    int *pred = new int[V];
+    bool temCiclo;
+
+    for (int v = 0; v < V; v++) {
+        marked[v] = false;
+        pred[v] = -1;
+    }
+    pred[v] = v;
+    temCiclo = dfsRcycle(v, marked, pred);
+    delete [] marked;
+    delete [] pred;
+    return temCiclo;
+}
+
+bool Grafo::dfsRcycle(int u, bool *marked, int *pred) {
+    marked[u] = true;
+    for (node *a = adj[u]; a != nullptr; a = a->next) {
+        int w = a->w;
+        if (!marked[w]) {
+            pred[w] = u;
+            if(dfsRcycle(w, marked, pred)) return true;
+        }
+        else if (pred[w] == w && pred[w] != u) // Chegou no primeiro vértice e não é o caminho de volta
+            return true;
+    }
+    return false;
+}
+
+/* Retorna verdadeiro caso o vértice a e o v esteja em algum ciclo,
+falso caso contrário */
+/* Retorna verdadeiro caso exista um ciclo que contenha os vértices x e y,
+falso caso contrário */
+bool Grafo::dfsCycle2(int x, int y) {
+    bool *marked = new bool[V];
+    int *pred = new int[V];
+    bool temCiclo;
+
+    // calcula o caminho mínimo (BFS)
+        // se não há caminho -> FALSE
+
+
+    // usa DFS para tentar encontrar um novo caminho diferente
+
+    for (int x = 0; x < V; x++) {
+        marked[x] = false;
+        pred[x] = -1;
+    }
+    pred[x] = x;
+    temCiclo = dfsRcycle(x, marked, pred);
+    delete [] marked;
+    delete [] pred;
+    return temCiclo;
+}
+
+bool Grafo::dfsRcycle2(int u, bool *marked, int *pred) {
+    marked[u] = true;
+    for (node *a = adj[u]; a != nullptr; a = a->next) {
+        int w = a->w;
+        if (!marked[w]) {
+            pred[w] = u;
+            if(dfsRcycle(w, marked, pred)) return true;
+        }
+        else if (pred[w] == w && pred[w] != u) // Chegou no primeiro vértice e não é o caminho de volta
+            return true;
+    }
+    return false;
 }
 
 /* Retorna se o grafo é ou não conexo */
