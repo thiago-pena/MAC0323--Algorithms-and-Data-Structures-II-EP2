@@ -1,0 +1,418 @@
+Número de vértices: 9730
+Número de arestas: 5963
+
+Número de componentes conexas: 5213
+O grafo é conexo? 0
+Tamanho da menor componente conexa: 1
+Tamanho da maior componente conexa: 457
+Tamanho médio das componentes conexas: 1.86649
+Grau médio dos vértices: 1.22569
+
+Tamanho da componente conexa de uma palavra (casos maiores que 1)
+	a24243: 2
+	aabcde: 3
+	ab2e2d: 2
+	ab2g2d: 2
+	abcde: 3
+	abcdef: 3
+	abdita: 2
+	abeat: 19
+	aberrat: 2
+	aberret: 2
+	abesse: 2
+	abest: 19
+	abeunt: 5
+	abeunte: 5
+	abeuntem: 5
+	abiere: 3
+	abinde: 3
+	abire: 3
+	abiret: 3
+	abkkt: 2
+	abkvt: 2
+	ablata: 7
+	abscindantur: 3
+	abscindat: 7
+	abscindatur: 3
+	abscinde: 7
+	abscindens: 7
+	abscindent: 7
+	abscindet: 7
+	abscinditur: 3
+	abscindo: 7
+	abscissa: 4
+	abscissam: 4
+	abscisse: 4
+	abscissi: 4
+	abscondi: 7
+	abside: 6
+	absit: 2
+	absoluta: 9
+	absolutam: 9
+	absolutas: 9
+	absolute: 9
+	absoluti: 9
+	absolutis: 9
+	absoluto: 9
+	absolutum: 9
+	absolutus: 9
+	absolutæ: 2
+	absolutè: 2
+	absunt: 5
+	abunde: 3
+	abundet: 3
+	accedant: 11
+	accedat: 11
+	accedendi: 2
+	accedendo: 2
+	accedent: 11
+	accedente: 11
+	accedentem: 11
+	accedere: 10
+	accederet: 10
+	accedet: 11
+	accedit: 11
+	accedunt: 11
+	accelerabantur: 4
+	accelerabatur: 4
+	accelerabitur: 4
+	accelerabuntur: 4
+	accelerantur: 9
+	accelerat: 9
+	accelerata: 9
+	acceleratio: 9
+	acceleratione: 4
+	accelerationem: 4
+	accelerationes: 4
+	accelerationis: 4
+	acceleratis: 9
+	accelerato: 9
+	acceleratrice: 6
+	acceleratricem: 6
+	acceleratrices: 6
+	acceleratrici: 6
+	acceleratricis: 6
+	acceleratricum: 6
+	acceleratur: 9
+	acceleratus: 9
+	acceleretur: 9
+	accendant: 11
+	accendere: 10
+	accepi: 11
+	accepit: 11
+	accessu: 3
+	accessum: 3
+	accessus: 3
+	accipiant: 2
+	accipiat: 2
+	accurata: 8
+	accuratam: 8
+	accuratas: 8
+	accurate: 8
+
+Distância entre palavras que estão na mesma componente conexa
+	dist(a24243, d24243): 1
+	dist(aabcde, abcde): 1
+	dist(aabcde, abcdef): 2
+	dist(ab2e2d, ab2g2d): 1
+	dist(abcde, abcdef): 1
+	dist(abdita, addita): 1
+	dist(abeat, abest): 1
+	dist(abeat, adest): 2
+	dist(abeat, habeant): 2
+	dist(abeat, habeat): 1
+	dist(abeat, habeatq): 2
+	dist(abeat, habebant): 3
+	dist(abeat, habebat): 2
+	dist(abeat, habebit): 3
+	dist(abeat, habebunt): 4
+	dist(abeat, habens): 3
+	dist(abeat, habent): 2
+	dist(abeat, habente): 3
+	dist(abeat, habentem): 4
+	dist(abeat, habentes): 4
+	dist(abeat, habentia): 6
+	dist(abeat, habentis): 5
+	dist(abeat, habeo): 3
+	dist(abeat, habet): 2
+	dist(aberrat, aberret): 1
+	dist(abesse, adesse): 1
+	dist(abest, adest): 1
+	dist(abest, habeant): 3
+	dist(abest, habeat): 2
+	dist(abest, habeatq): 3
+	dist(abest, habebant): 4
+	dist(abest, habebat): 3
+	dist(abest, habebit): 4
+	dist(abest, habebunt): 5
+	dist(abest, habens): 4
+	dist(abest, habent): 3
+	dist(abest, habente): 4
+	dist(abest, habentem): 5
+	dist(abest, habentes): 5
+	dist(abest, habentia): 7
+	dist(abest, habentis): 6
+	dist(abest, habeo): 4
+	dist(abest, habet): 3
+	dist(abeunt, abeunte): 1
+	dist(abeunt, abeuntem): 2
+	dist(abeunt, absunt): 1
+	dist(abeunt, adsunt): 2
+	dist(abeunte, abeuntem): 1
+	dist(abeunte, absunt): 2
+	dist(abeunte, adsunt): 3
+	dist(abeuntem, absunt): 3
+	dist(abeuntem, adsunt): 4
+	dist(abiere, abire): 1
+	dist(abiere, abiret): 2
+	dist(abinde, abunde): 1
+	dist(abinde, abundet): 2
+	dist(abire, abiret): 1
+	dist(abkkt, abkvt): 1
+	dist(ablata, allata): 1
+	dist(ablata, allatam): 2
+	dist(ablata, allato): 2
+	dist(ablata, allatum): 3
+	dist(ablata, illata): 2
+	dist(ablata, illatam): 3
+	dist(abscindantur, abscindatur): 1
+	dist(abscindantur, abscinditur): 2
+	dist(abscindat, abscinde): 2
+	dist(abscindat, abscindens): 3
+	dist(abscindat, abscindent): 2
+	dist(abscindat, abscindet): 1
+	dist(abscindat, abscindo): 3
+	dist(abscindat, abscondi): 4
+	dist(abscindatur, abscinditur): 1
+	dist(abscinde, abscindens): 3
+	dist(abscinde, abscindent): 2
+	dist(abscinde, abscindet): 1
+	dist(abscinde, abscindo): 1
+	dist(abscinde, abscondi): 2
+	dist(abscindens, abscindent): 1
+	dist(abscindens, abscindet): 2
+	dist(abscindens, abscindo): 4
+	dist(abscindens, abscondi): 5
+	dist(abscindent, abscindet): 1
+	dist(abscindent, abscindo): 3
+	dist(abscindent, abscondi): 4
+	dist(abscindet, abscindo): 2
+	dist(abscindet, abscondi): 3
+	dist(abscindo, abscondi): 1
+	dist(abscissa, abscissam): 1
+	dist(abscissa, abscisse): 1
+	dist(abscissa, abscissi): 1
+	dist(abscissam, abscisse): 2
+	dist(abscissam, abscissi): 2
+	dist(abscisse, abscissi): 1
+	dist(abside, apside): 1
+	dist(abside, apsidem): 2
+	dist(abside, apsides): 2
+	dist(abside, apsidis): 3
+	dist(abside, apsidum): 3
+	dist(absit, adsit): 1
+
+Palavras que estão em um ciclo
+	abscissa
+	abscisse
+	abscissi
+	absoluta
+	absolutam
+	absolutas
+	absolute
+	absoluti
+	absolutis
+	absoluto
+	absolutum
+	absolutus
+	accedant
+	accedat
+	accedent
+	accedet
+	accedit
+	accedunt
+	accelerat
+	accelerata
+	acceleratione
+	accelerationem
+	accelerationes
+	accelerato
+	acceleratrice
+	acceleratricem
+	acceleratrices
+	acceleratrici
+	acceleratricis
+	accessu
+	accessum
+	accessus
+	accurata
+	accuratam
+	accuratas
+	accurate
+	accurato
+	aciei
+	aciem
+	acies
+	acquirant
+	acquirat
+	acquirent
+	acquiret
+	acquirit
+	acquirunt
+	actam
+	actaq
+	actarum
+	actas
+	actione
+	actionem
+	actiones
+	actioni
+	actionis
+	actis
+	actorum
+	actum
+	actus
+	acutus
+	admissa
+	admissi
+	admissis
+	admitti
+	admittit
+	adæquat
+	adæquate
+	adæquato
+	affirmativa
+	affirmativi
+	affirmativis
+	affirmativo
+	affirmativos
+	agant
+	agent
+	agitantur
+	agitatur
+	agitentur
+	agitetur
+	agunt
+	aliam
+	aliamve
+	alias
+	aliasve
+	aliave
+	aliis
+	alijs
+	alios
+	aliqua
+	aliqui
+	aliquid
+	aliquis
+	aliquo
+	aliquod
+	aliquot
+	aliud
+	alium
+	alius
+	allata
+	allatam
+
+Duplas de palavras que estão em um ciclo
+	abscissa, abscisse
+	abscissa, abscissi
+	abscisse, abscissi
+	absoluta, absolutam
+	absoluta, absolutas
+	absoluta, absolute
+	absoluta, absoluti
+	absoluta, absolutis
+	absoluta, absoluto
+	absoluta, absolutum
+	absoluta, absolutus
+	absolutam, absolutas
+	absolutam, absolute
+	absolutam, absoluti
+	absolutam, absolutis
+	absolutam, absoluto
+	absolutam, absolutum
+	absolutam, absolutus
+	absolutas, absolute
+	absolutas, absoluti
+	absolutas, absolutis
+	absolutas, absoluto
+	absolutas, absolutum
+	absolutas, absolutus
+	absolute, absoluti
+	absolute, absolutis
+	absolute, absoluto
+	absolute, absolutum
+	absolute, absolutus
+	absoluti, absolutis
+	absoluti, absoluto
+	absoluti, absolutum
+	absoluti, absolutus
+	absolutis, absoluto
+	absolutis, absolutum
+	absolutis, absolutus
+	absoluto, absolutum
+	absoluto, absolutus
+	absolutum, absolutus
+	accedant, accedat
+	accedant, accedent
+	accedant, accedet
+	accedant, accedit
+	accedant, accedunt
+	accedat, accedent
+	accedat, accedet
+	accedat, accedit
+	accedat, accedunt
+	accedent, accedet
+	accedent, accedit
+	accedent, accedunt
+	accedet, accedit
+	accedet, accedunt
+	accedit, accedunt
+	accelerat, accelerata
+	accelerat, accelerato
+	accelerata, accelerato
+	acceleratione, accelerationem
+	acceleratione, accelerationes
+	accelerationem, accelerationes
+	acceleratrice, acceleratricem
+	acceleratrice, acceleratrices
+	acceleratrice, acceleratrici
+	acceleratrice, acceleratricis
+	acceleratricem, acceleratrices
+	acceleratricem, acceleratrici
+	acceleratricem, acceleratricis
+	acceleratrices, acceleratrici
+	acceleratrices, acceleratricis
+	acceleratrici, acceleratricis
+	accessu, accessum
+	accessu, accessus
+	accessum, accessus
+	accurata, accuratam
+	accurata, accuratas
+	accurata, accurate
+	accurata, accurato
+	accuratam, accuratas
+	accuratam, accurate
+	accuratam, accurato
+	accuratas, accurate
+	accuratas, accurato
+	accurate, accurato
+	aciei, aciem
+	aciei, acies
+	aciem, acies
+	acquirant, acquirat
+	acquirant, acquirent
+	acquirant, acquiret
+	acquirant, acquirit
+	acquirant, acquirunt
+	acquirat, acquirent
+	acquirat, acquiret
+	acquirat, acquirit
+	acquirat, acquirunt
+	acquirent, acquiret
+	acquirent, acquirit
+	acquirent, acquirunt
+	acquiret, acquirit
+	acquiret, acquirunt
+

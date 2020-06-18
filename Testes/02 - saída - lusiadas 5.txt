@@ -1,0 +1,418 @@
+Número de vértices: 8372
+Número de arestas: 5231
+
+Número de componentes conexas: 4391
+O grafo é conexo? 0
+Tamanho da menor componente conexa: 1
+Tamanho da maior componente conexa: 1605
+Tamanho médio das componentes conexas: 1.90663
+Grau médio dos vértices: 1.24964
+
+Tamanho da componente conexa de uma palavra (casos maiores que 1)
+	abaixa: 18
+	abaixam: 18
+	abaixo: 18
+	abala: 18
+	abalam: 18
+	abalo: 18
+	abasta: 1605
+	abastados: 2
+	abastam: 1605
+	abastança: 2
+	abastanças: 2
+	abaxa: 18
+	abaxar: 18
+	abaxe: 18
+	abaxo: 18
+	aberta: 1605
+	aberto: 1605
+	abertos: 1605
+	abila: 18
+	abola: 18
+	abranda: 1605
+	abrandar: 1605
+	abrande: 1605
+	abrange: 1605
+	abrasa: 3
+	abrasasse: 2
+	abrasassem: 2
+	abraçado: 2
+	abraçados: 2
+	abraços: 3
+	abria: 5
+	abrigo: 1605
+	abrimos: 2
+	abrindo: 2
+	abrindoo: 2
+	abrir: 5
+	abrira: 5
+	abriram: 5
+	abrirmos: 2
+	abriu: 5
+	abundante: 2
+	abundantes: 2
+	acaba: 1605
+	acabada: 5
+	acabado: 5
+	acabar: 1605
+	acabaram: 5
+	acabasse: 2
+	acabassem: 2
+	acabava: 5
+	acabavam: 5
+	acabe: 1605
+	acabo: 1605
+	acabou: 1605
+	acaso: 1605
+	aceita: 1605
+	aceito: 1605
+	aceitos: 1605
+	acena: 1605
+	acenda: 1605
+	acende: 1605
+	acendem: 1605
+	acendeu: 1605
+	acendia: 1605
+	acendiam: 1605
+	acendidas: 3
+	acendido: 3
+	acendidos: 3
+	acenos: 1605
+	acentos: 1605
+	acerta: 1605
+	acertam: 1605
+	acerto: 1605
+	acesa: 1605
+	aceso: 1605
+	acesos: 1605
+	acham: 10
+	achamos: 3
+	achar: 10
+	achara: 10
+	acharam: 10
+	acharei: 10
+	acharem: 10
+	acharmos: 3
+	acharse: 2
+	achará: 2
+	acharás: 2
+	achas: 10
+	achasse: 2
+	achava: 10
+	achega: 1605
+	achei: 10
+	achemos: 3
+	aches: 10
+	acima: 5
+	acode: 20
+	acompanhada: 3
+	acompanhado: 3
+	acompanhando: 3
+	acompanharam: 2
+
+Distância entre palavras que estão na mesma componente conexa
+	dist(abaixa, abaixam): 1
+	dist(abaixa, abaixo): 1
+	dist(abaixa, abala): 2
+	dist(abaixa, abalam): 3
+	dist(abaixa, abalo): 3
+	dist(abaixa, abaxa): 1
+	dist(abaixa, abaxar): 2
+	dist(abaixa, abaxe): 2
+	dist(abaixa, abaxo): 2
+	dist(abaixa, abila): 3
+	dist(abaixa, abola): 3
+	dist(abaixa, atila): 4
+	dist(abaixa, bailos): 4
+	dist(abaixa, baixa): 1
+	dist(abaixa, baixo): 2
+	dist(abaixa, baixos): 3
+	dist(abaixa, baxos): 4
+	dist(abaixam, abaixo): 2
+	dist(abaixam, abala): 3
+	dist(abaixam, abalam): 4
+	dist(abaixam, abalo): 4
+	dist(abaixam, abaxa): 2
+	dist(abaixam, abaxar): 3
+	dist(abaixam, abaxe): 3
+	dist(abaixam, abaxo): 3
+	dist(abaixam, abila): 4
+	dist(abaixam, abola): 4
+	dist(abaixam, atila): 5
+	dist(abaixam, bailos): 5
+	dist(abaixam, baixa): 2
+	dist(abaixam, baixo): 3
+	dist(abaixam, baixos): 4
+	dist(abaixam, baxos): 5
+	dist(abaixo, abala): 3
+	dist(abaixo, abalam): 4
+	dist(abaixo, abalo): 2
+	dist(abaixo, abaxa): 2
+	dist(abaixo, abaxar): 3
+	dist(abaixo, abaxe): 2
+	dist(abaixo, abaxo): 1
+	dist(abaixo, abila): 4
+	dist(abaixo, abola): 3
+	dist(abaixo, atila): 5
+	dist(abaixo, bailos): 3
+	dist(abaixo, baixa): 2
+	dist(abaixo, baixo): 1
+	dist(abaixo, baixos): 2
+	dist(abaixo, baxos): 3
+	dist(abala, abalam): 1
+	dist(abala, abalo): 1
+	dist(abala, abaxa): 1
+	dist(abala, abaxar): 2
+	dist(abala, abaxe): 2
+	dist(abala, abaxo): 2
+	dist(abala, abila): 1
+	dist(abala, abola): 1
+	dist(abala, atila): 2
+	dist(abala, bailos): 6
+	dist(abala, baixa): 3
+	dist(abala, baixo): 4
+	dist(abala, baixos): 5
+	dist(abala, baxos): 6
+	dist(abalam, abalo): 2
+	dist(abalam, abaxa): 2
+	dist(abalam, abaxar): 3
+	dist(abalam, abaxe): 3
+	dist(abalam, abaxo): 3
+	dist(abalam, abila): 2
+	dist(abalam, abola): 2
+	dist(abalam, atila): 3
+	dist(abalam, bailos): 7
+	dist(abalam, baixa): 4
+	dist(abalam, baixo): 5
+	dist(abalam, baixos): 6
+	dist(abalam, baxos): 7
+	dist(abalo, abaxa): 2
+	dist(abalo, abaxar): 3
+	dist(abalo, abaxe): 2
+	dist(abalo, abaxo): 1
+	dist(abalo, abila): 2
+	dist(abalo, abola): 1
+	dist(abalo, atila): 3
+	dist(abalo, bailos): 5
+	dist(abalo, baixa): 4
+	dist(abalo, baixo): 3
+	dist(abalo, baixos): 4
+	dist(abalo, baxos): 5
+	dist(abasta, abastam): 1
+	dist(abasta, aberta): 7
+	dist(abasta, aberto): 8
+	dist(abasta, abertos): 9
+	dist(abasta, abranda): 10
+	dist(abasta, abrandar): 11
+	dist(abasta, abrande): 11
+	dist(abasta, abrange): 12
+	dist(abasta, abrigo): 13
+	dist(abasta, acaba): 10
+	dist(abasta, acabar): 11
+	dist(abasta, acabe): 10
+	dist(abasta, acabo): 9
+
+Palavras que estão em um ciclo
+	abaixa
+	abaixo
+	abala
+	abalo
+	abaxa
+	abaxe
+	abaxo
+	aberta
+	aberto
+	abila
+	abola
+	abria
+	abrigo
+	abrir
+	abrira
+	abriu
+	acaba
+	acabe
+	acabo
+	aceita
+	aceito
+	aceitos
+	acena
+	acende
+	acendem
+	acendeu
+	acenos
+	acentos
+	acerta
+	acerto
+	acesa
+	aceso
+	acesos
+	acham
+	achar
+	achas
+	acostumado
+	acostumados
+	acude
+	acudo
+	acusa
+	adora
+	adormece
+	adormecer
+	adormeces
+	afeitos
+	afigurada
+	afiguradas
+	afigurado
+	afigurados
+	afora
+	agora
+	aguda
+	agudas
+	agudo
+	agudos
+	ainda
+	ajuda
+	ajudao
+	ajudar
+	ajude
+	alarte
+	alcança
+	alcançada
+	alcançam
+	alcançar
+	alcançara
+	alcançava
+	alento
+	alerta
+	alevanta
+	alevantado
+	alevantam
+	alevantando
+	alevantar
+	alevantaram
+	alevantava
+	alevantavam
+	alevante
+	algum
+	alheia
+	alheias
+	alheio
+	alheios
+	almada
+	almas
+	altar
+	altas
+	alvas
+	amada
+	amadas
+	amado
+	amador
+	amados
+	amando
+	amanse
+	amante
+	amara
+	amaro
+	amarte
+
+Duplas de palavras que estão em um ciclo
+	abaixa, abaixo
+	abaixa, abala
+	abaixa, abalo
+	abaixa, abaxa
+	abaixa, abaxe
+	abaixa, abaxo
+	abaixa, abila
+	abaixa, abola
+	abaixa, baixa
+	abaixa, baixo
+	abaixo, abala
+	abaixo, abalo
+	abaixo, abaxa
+	abaixo, abaxe
+	abaixo, abaxo
+	abaixo, abila
+	abaixo, abola
+	abaixo, baixa
+	abaixo, baixo
+	abala, abalo
+	abala, abaxa
+	abala, abaxe
+	abala, abaxo
+	abala, abila
+	abala, abola
+	abala, baixa
+	abala, baixo
+	abalo, abaxa
+	abalo, abaxe
+	abalo, abaxo
+	abalo, abila
+	abalo, abola
+	abalo, baixa
+	abalo, baixo
+	abaxa, abaxe
+	abaxa, abaxo
+	abaxa, abila
+	abaxa, abola
+	abaxa, baixa
+	abaxa, baixo
+	abaxe, abaxo
+	abaxe, abila
+	abaxe, abola
+	abaxe, baixa
+	abaxe, baixo
+	abaxo, abila
+	abaxo, abola
+	abaxo, baixa
+	abaxo, baixo
+	aberta, aberto
+	aberta, aceita
+	aberta, aceito
+	aberta, aceitos
+	aberta, acena
+	aberta, acenos
+	aberta, acentos
+	aberta, acerta
+	aberta, acerto
+	aberta, acesa
+	aberta, aceso
+	aberta, acesos
+	aberta, acusa
+	aberta, afeitos
+	aberta, ainda
+	aberta, alarte
+	aberta, alento
+	aberta, alerta
+	aberta, almada
+	aberta, almas
+	aberta, altar
+	aberta, altas
+	aberta, alvas
+	aberta, amada
+	aberta, amadas
+	aberta, amado
+	aberta, amador
+	aberta, amados
+	aberta, amando
+	aberta, amanse
+	aberta, amante
+	aberta, amara
+	aberta, amaro
+	aberta, amarte
+	aberta, amasse
+	aberta, amaste
+	aberta, amava
+	aberta, amostra
+	aberta, amostrar
+	aberta, andam
+	aberta, andar
+	aberta, antes
+	aberta, aonde
+	aberta, aparta
+	aberta, aparte
+	aberta, apenas
+	aberta, aperto
+	aberta, arado
+	aberta, arados
+	aberta, argos
+	aberta, armada
+

@@ -1,0 +1,418 @@
+Número de vértices: 3261
+Número de arestas: 1311
+
+Número de componentes conexas: 2187
+O grafo é conexo? 0
+Tamanho da menor componente conexa: 1
+Tamanho da maior componente conexa: 15
+Tamanho médio das componentes conexas: 1.49108
+Grau médio dos vértices: 0.804048
+
+Tamanho da componente conexa de uma palavra (casos maiores que 1)
+	abscindantur: 3
+	abscindatur: 3
+	abscindens: 2
+	abscindent: 2
+	abscinditur: 3
+	accelerabantur: 4
+	accelerabatur: 4
+	accelerabitur: 4
+	accelerabuntur: 4
+	accelerantur: 8
+	accelerata: 8
+	acceleratio: 8
+	acceleratione: 4
+	accelerationem: 4
+	accelerationes: 4
+	accelerationis: 4
+	acceleratis: 8
+	accelerato: 8
+	acceleratrice: 6
+	acceleratricem: 6
+	acceleratrices: 6
+	acceleratrici: 6
+	acceleratricis: 6
+	acceleratricum: 6
+	acceleratur: 8
+	acceleratus: 8
+	acceleretur: 8
+	acquisierit: 2
+	acquisiverit: 2
+	affirmativa: 5
+	affirmativi: 5
+	affirmativis: 5
+	affirmativo: 5
+	affirmativos: 5
+	agitatione: 2
+	agitationem: 2
+	alterutram: 2
+	alterutrum: 2
+	altissimæ: 2
+	altitudine: 12
+	altitudinem: 12
+	altitudines: 12
+	altitudini: 12
+	altitudinibus: 2
+	altitudinis: 12
+	altitudinum: 12
+	angustiora: 3
+	angustiore: 3
+	angustiores: 3
+	angustissima: 2
+	angustissimas: 2
+	anteriores: 7
+	apparentem: 4
+	apparenter: 4
+	apparentes: 4
+	apparentis: 4
+	applicantur: 4
+	applicatam: 5
+	applicatas: 5
+	applicatis: 5
+	applicatum: 5
+	applicatus: 5
+	applicenter: 4
+	applicentur: 4
+	applicetur: 4
+	appropinquans: 2
+	appropinquant: 2
+	aptissimæ: 2
+	archimedes: 2
+	archimedis: 2
+	aristotele: 2
+	aristoteles: 2
+	arithmetica: 3
+	arithmeticas: 3
+	arithmetice: 3
+	ascendebant: 6
+	ascendebat: 6
+	ascendendi: 2
+	ascendendo: 2
+	ascendente: 2
+	ascendentem: 2
+	ascenderant: 6
+	ascenderat: 6
+	ascenderet: 6
+	ascenderit: 6
+	ascribendum: 3
+	assignatam: 3
+	assignatum: 3
+	assignatur: 3
+	astronomia: 3
+	astronomicam: 5
+	astronomicas: 5
+	astronomici: 5
+	astronomicis: 5
+	astronomico: 5
+	astronomicæ: 2
+	astronomis: 3
+	astronomiæ: 2
+	astronomos: 3
+	asymptotis: 3
+
+Distância entre palavras que estão na mesma componente conexa
+	dist(abscindantur, abscindatur): 1
+	dist(abscindantur, abscinditur): 2
+	dist(abscindatur, abscinditur): 1
+	dist(abscindens, abscindent): 1
+	dist(accelerabantur, accelerabatur): 1
+	dist(accelerabantur, accelerabitur): 2
+	dist(accelerabantur, accelerabuntur): 1
+	dist(accelerabatur, accelerabitur): 1
+	dist(accelerabatur, accelerabuntur): 2
+	dist(accelerabitur, accelerabuntur): 3
+	dist(accelerantur, accelerata): 6
+	dist(accelerantur, acceleratio): 4
+	dist(accelerantur, acceleratis): 3
+	dist(accelerantur, accelerato): 5
+	dist(accelerantur, acceleratur): 1
+	dist(accelerantur, acceleratus): 2
+	dist(accelerantur, acceleretur): 2
+	dist(accelerata, acceleratio): 2
+	dist(accelerata, acceleratis): 3
+	dist(accelerata, accelerato): 1
+	dist(accelerata, acceleratur): 5
+	dist(accelerata, acceleratus): 4
+	dist(accelerata, acceleretur): 6
+	dist(acceleratio, acceleratis): 1
+	dist(acceleratio, accelerato): 1
+	dist(acceleratio, acceleratur): 3
+	dist(acceleratio, acceleratus): 2
+	dist(acceleratio, acceleretur): 4
+	dist(acceleratione, accelerationem): 1
+	dist(acceleratione, accelerationes): 1
+	dist(acceleratione, accelerationis): 2
+	dist(accelerationem, accelerationes): 1
+	dist(accelerationem, accelerationis): 2
+	dist(accelerationes, accelerationis): 1
+	dist(acceleratis, accelerato): 2
+	dist(acceleratis, acceleratur): 2
+	dist(acceleratis, acceleratus): 1
+	dist(acceleratis, acceleretur): 3
+	dist(accelerato, acceleratur): 4
+	dist(accelerato, acceleratus): 3
+	dist(accelerato, acceleretur): 5
+	dist(acceleratrice, acceleratricem): 1
+	dist(acceleratrice, acceleratrices): 1
+	dist(acceleratrice, acceleratrici): 1
+	dist(acceleratrice, acceleratricis): 2
+	dist(acceleratrice, acceleratricum): 2
+	dist(acceleratricem, acceleratrices): 1
+	dist(acceleratricem, acceleratrici): 2
+	dist(acceleratricem, acceleratricis): 2
+	dist(acceleratricem, acceleratricum): 1
+	dist(acceleratrices, acceleratrici): 2
+	dist(acceleratrices, acceleratricis): 1
+	dist(acceleratrices, acceleratricum): 2
+	dist(acceleratrici, acceleratricis): 1
+	dist(acceleratrici, acceleratricum): 3
+	dist(acceleratricis, acceleratricum): 3
+	dist(acceleratur, acceleratus): 1
+	dist(acceleratur, acceleretur): 1
+	dist(acceleratus, acceleretur): 2
+	dist(acquisierit, acquisiverit): 1
+	dist(affirmativa, affirmativi): 1
+	dist(affirmativa, affirmativis): 2
+	dist(affirmativa, affirmativo): 1
+	dist(affirmativa, affirmativos): 2
+	dist(affirmativi, affirmativis): 1
+	dist(affirmativi, affirmativo): 1
+	dist(affirmativi, affirmativos): 2
+	dist(affirmativis, affirmativo): 2
+	dist(affirmativis, affirmativos): 1
+	dist(affirmativo, affirmativos): 1
+	dist(agitatione, agitationem): 1
+	dist(alterutram, alterutrum): 1
+	dist(altissimæ, aptissimæ): 1
+	dist(altitudine, altitudinem): 1
+	dist(altitudine, altitudines): 1
+	dist(altitudine, altitudini): 1
+	dist(altitudine, altitudinis): 2
+	dist(altitudine, altitudinum): 2
+	dist(altitudine, latitudine): 1
+	dist(altitudine, latitudinem): 2
+	dist(altitudine, latitudines): 2
+	dist(altitudine, latitudini): 2
+	dist(altitudine, latitudinis): 3
+	dist(altitudine, latitudinum): 3
+	dist(altitudinem, altitudines): 1
+	dist(altitudinem, altitudini): 2
+	dist(altitudinem, altitudinis): 2
+	dist(altitudinem, altitudinum): 1
+	dist(altitudinem, latitudine): 2
+	dist(altitudinem, latitudinem): 1
+	dist(altitudinem, latitudines): 2
+	dist(altitudinem, latitudini): 3
+	dist(altitudinem, latitudinis): 3
+	dist(altitudinem, latitudinum): 2
+	dist(altitudines, altitudini): 2
+	dist(altitudines, altitudinis): 1
+	dist(altitudines, altitudinum): 2
+	dist(altitudines, latitudine): 2
+	dist(altitudines, latitudinem): 2
+	dist(altitudines, latitudines): 1
+
+Palavras que estão em um ciclo
+	acceleratione
+	accelerationem
+	accelerationes
+	acceleratrice
+	acceleratricem
+	acceleratrices
+	acceleratrici
+	acceleratricis
+	affirmativa
+	affirmativi
+	affirmativis
+	affirmativo
+	affirmativos
+	altitudine
+	altitudinem
+	altitudines
+	altitudini
+	altitudinis
+	altitudinum
+	apparentem
+	apparenter
+	apparentes
+	applicatam
+	applicatas
+	applicatis
+	applicatum
+	applicatus
+	ascendebant
+	ascendebat
+	ascenderant
+	ascenderat
+	ascenderet
+	ascenderit
+	attractione
+	attractionem
+	attractiones
+	attractiva
+	attractivam
+	attractivas
+	attrahenti
+	attrahentia
+	attrahentis
+	centripeta
+	centripetam
+	centripetas
+	circumferentia
+	circumferentiam
+	circumferentias
+	colligenda
+	colligendi
+	colligendo
+	componantur
+	componatur
+	componentur
+	componetur
+	componitur
+	componuntur
+	compositis
+	compositos
+	compositus
+	compositâ
+	compositæ
+	compositè
+	computatione
+	computationem
+	computationes
+	concentrica
+	concentricas
+	concentrici
+	concentricis
+	concentrico
+	concentricos
+	concentricus
+	concurrant
+	concurrent
+	concurrunt
+	condensatione
+	condensationem
+	condensationes
+	condensationi
+	condensationis
+	conditione
+	conditionem
+	conditiones
+	conferenda
+	conferendi
+	conferendo
+	conjunctas
+	conjunctione
+	conjunctionem
+	conjunctiones
+	conjunctis
+	conjunctos
+	consequantur
+	consequentur
+	consequuntur
+	consideranda
+	considerandi
+	considerando
+	consistant
+
+Duplas de palavras que estão em um ciclo
+	acceleratione, accelerationem
+	acceleratione, accelerationes
+	accelerationem, accelerationes
+	acceleratrice, acceleratricem
+	acceleratrice, acceleratrices
+	acceleratrice, acceleratrici
+	acceleratrice, acceleratricis
+	acceleratricem, acceleratrices
+	acceleratricem, acceleratrici
+	acceleratricem, acceleratricis
+	acceleratrices, acceleratrici
+	acceleratrices, acceleratricis
+	acceleratrici, acceleratricis
+	affirmativa, affirmativi
+	affirmativa, affirmativis
+	affirmativa, affirmativo
+	affirmativa, affirmativos
+	affirmativi, affirmativis
+	affirmativi, affirmativo
+	affirmativi, affirmativos
+	affirmativis, affirmativo
+	affirmativis, affirmativos
+	affirmativo, affirmativos
+	altitudine, altitudinem
+	altitudine, altitudines
+	altitudine, altitudini
+	altitudine, altitudinis
+	altitudine, altitudinum
+	altitudine, latitudine
+	altitudine, latitudinem
+	altitudine, latitudines
+	altitudine, latitudini
+	altitudine, latitudinis
+	altitudine, latitudinum
+	altitudinem, altitudines
+	altitudinem, altitudini
+	altitudinem, altitudinis
+	altitudinem, altitudinum
+	altitudinem, latitudine
+	altitudinem, latitudinem
+	altitudinem, latitudines
+	altitudinem, latitudini
+	altitudinem, latitudinis
+	altitudinem, latitudinum
+	altitudines, altitudini
+	altitudines, altitudinis
+	altitudines, altitudinum
+	altitudines, latitudine
+	altitudines, latitudinem
+	altitudines, latitudines
+	altitudines, latitudini
+	altitudines, latitudinis
+	altitudines, latitudinum
+	altitudini, altitudinis
+	altitudini, altitudinum
+	altitudini, latitudine
+	altitudini, latitudinem
+	altitudini, latitudines
+	altitudini, latitudini
+	altitudini, latitudinis
+	altitudini, latitudinum
+	altitudinis, altitudinum
+	altitudinis, latitudine
+	altitudinis, latitudinem
+	altitudinis, latitudines
+	altitudinis, latitudini
+	altitudinis, latitudinis
+	altitudinis, latitudinum
+	altitudinum, latitudine
+	altitudinum, latitudinem
+	altitudinum, latitudines
+	altitudinum, latitudini
+	altitudinum, latitudinis
+	altitudinum, latitudinum
+	apparentem, apparenter
+	apparentem, apparentes
+	apparenter, apparentes
+	applicatam, applicatas
+	applicatam, applicatis
+	applicatam, applicatum
+	applicatam, applicatus
+	applicatas, applicatis
+	applicatas, applicatum
+	applicatas, applicatus
+	applicatis, applicatum
+	applicatis, applicatus
+	applicatum, applicatus
+	ascendebant, ascendebat
+	ascendebant, ascenderant
+	ascendebant, ascenderat
+	ascendebant, ascenderet
+	ascendebant, ascenderit
+	ascendebat, ascenderant
+	ascendebat, ascenderat
+	ascendebat, ascenderet
+	ascendebat, ascenderit
+	ascenderant, ascenderat
+	ascenderant, ascenderet
+	ascenderant, ascenderit
+	ascenderat, ascenderet
+

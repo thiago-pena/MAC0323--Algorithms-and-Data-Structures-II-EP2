@@ -1,13 +1,9 @@
-/******************************************************************************
-
-                              Online C++ Compiler.
-               Code, Compile, Run and Debug C++ program online.
-Write your code in this editor and press "Run" button to compile and execute it.
-
-*******************************************************************************/
-
+#ifndef AUX_HPP
+#define AUX_HPP
+#include <string>
+#include <fstream>
+#include <regex>
 #include <iostream>
-
 using namespace std;
 
 int min(int x, int y) {
@@ -21,16 +17,15 @@ bool remocao(string s, string t) {
     // casa e casca.
     int minLen = min(s.length(), t.length());
     string maior, menor;
-    if (s.length() == minLen) {
+    if (s.length() == (unsigned) minLen) {
         menor = s;
         maior = t;
     } else {
         menor = t;
         maior = s;
     }
-    if (maior.length() != 1 + minLen) return false;
+    if (maior.length() != (unsigned) (1 + minLen)) return false;
 
-    bool vizinhas = true;
     int i = 0;
     int j = 0;
     while (i < minLen && j < minLen + 1 && (i - j < 1)) { // j == i (remover última letra) ou j == i + 1 (removeu alguma letra que não a última)
@@ -50,7 +45,7 @@ bool trocaLetras(string s, string t) {
 
     if (s.length() != t.length()) return false;
     int i, j, k, contDiferentes = 0;
-    for (k = 0; k < s.length(); k++) {
+    for (k = 0; (unsigned) k < s.length(); k++) {
         if (s[k] != t[k]) {
             if (contDiferentes == 0) i = k;
             else if (contDiferentes == 1) j = k;
@@ -68,24 +63,11 @@ bool substituicao(string s, string t) {
     // preta
     if (s.length() != t.length()) return false;
     int i, contDiferentes = 0;
-    for (i = 0; i < s.length(); i++)
+    for (i = 0; (unsigned) i < s.length(); i++)
         if (s[i] != t[i])
             if (++contDiferentes > 1) return false;
     if (contDiferentes == 1) return true;
     return false;
 }
 
-int main()
-{
-    // substituição de uma letra. Duas palavras são vizinhas se uma é obtida a partir da outra
-    // substituindo uma das letras. Por exemplo, gato e rato são vizinhas, assim como prata e
-    // preta
-
-    string s = "prata";
-    string t = "preta";
-
-    cout << "Remoção? " << remocao(s, t) << endl;
-    cout << "Troca? " << trocaLetras(s, t) << endl;
-    cout << "Substituição? " << substituicao(s, t) << endl;
-    return 0;
-}
+#endif

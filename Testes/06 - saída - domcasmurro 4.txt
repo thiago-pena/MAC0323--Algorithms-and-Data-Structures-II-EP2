@@ -1,0 +1,418 @@
+Número de vértices: 9313
+Número de arestas: 5846
+
+Número de componentes conexas: 5393
+O grafo é conexo? 0
+Tamanho da menor componente conexa: 1
+Tamanho da maior componente conexa: 1860
+Tamanho médio das componentes conexas: 1.72687
+Grau médio dos vértices: 1.25545
+
+Tamanho da componente conexa de uma palavra (casos maiores que 1)
+	abafado: 3
+	abafando: 3
+	abafava: 2
+	abaixo: 1860
+	abaixou: 1860
+	abalo: 17
+	abalou: 17
+	abanando: 3
+	abanava: 2
+	abanou: 17
+	abatida: 2
+	abatido: 2
+	abel: 2
+	abençoa: 2
+	abençoar: 2
+	aberta: 1860
+	abertas: 1860
+	aberto: 1860
+	abertos: 1860
+	abolir: 2
+	aborrece: 3
+	aborrecem: 3
+	aborrecer: 3
+	aborrecida: 2
+	aborrecido: 2
+	abotoada: 2
+	abotoado: 2
+	abra: 1860
+	abraço: 4
+	abraços: 4
+	abri: 1860
+	abria: 1860
+	abriame: 2
+	abriase: 2
+	abrigado: 6
+	abril: 1860
+	abrilo: 1860
+	abrilos: 1860
+	abrimos: 1860
+	abrir: 1860
+	abrira: 1860
+	abriu: 1860
+	abusa: 2
+	abuso: 2
+	acaba: 1860
+	acabada: 7
+	acabadas: 7
+	acabado: 7
+	acabam: 1860
+	acabando: 7
+	acabar: 1860
+	acabaram: 7
+	acabas: 1860
+	acabasse: 2
+	acabassem: 2
+	acabava: 7
+	acabavam: 7
+	acabo: 1860
+	acabou: 1860
+	acanhada: 4
+	acanhado: 4
+	acaso: 1860
+	acceita: 4
+	acceitala: 2
+	acceitalo: 2
+	acceitar: 4
+	acceito: 4
+	acceitou: 4
+	accender: 3
+	accendeu: 3
+	accendi: 2
+	accendia: 2
+	accendou: 3
+	accordado: 2
+	accordando: 2
+	acena: 4
+	aceno: 4
+	acertado: 11
+	acha: 1860
+	achado: 12
+	achados: 12
+	achala: 12
+	achalo: 12
+	acham: 1860
+	achando: 12
+	achar: 1860
+	acharam: 12
+	achardes: 2
+	achares: 2
+	achas: 1860
+	achasse: 2
+	achaste: 2
+	achava: 12
+	achavaa: 12
+	achavam: 12
+	achavame: 12
+	achavamme: 12
+	achavao: 12
+	ache: 1860
+	achei: 1860
+
+Distância entre palavras que estão na mesma componente conexa
+	dist(abafado, abafando): 1
+	dist(abafado, abanando): 2
+	dist(abafando, abanando): 1
+	dist(abafava, abanava): 1
+	dist(abaixo, abaixou): 1
+	dist(abaixo, aberta): 10
+	dist(abaixo, abertas): 11
+	dist(abaixo, aberto): 9
+	dist(abaixo, abertos): 10
+	dist(abaixo, abra): 8
+	dist(abaixo, abri): 8
+	dist(abaixo, abria): 7
+	dist(abaixo, abril): 8
+	dist(abaixo, abrilo): 9
+	dist(abaixo, abrilos): 10
+	dist(abaixo, abrimos): 11
+	dist(abaixo, abrir): 8
+	dist(abaixo, abrira): 8
+	dist(abaixo, abriu): 8
+	dist(abaixo, acaba): 8
+	dist(abaixo, acabam): 9
+	dist(abaixo, acabar): 9
+	dist(abaixo, acabas): 9
+	dist(abaixo, acabo): 7
+	dist(abaixo, acabou): 8
+	dist(abaixo, acaso): 7
+	dist(abaixo, acha): 10
+	dist(abaixo, acham): 11
+	dist(abaixo, achar): 11
+	dist(abaixo, achas): 11
+	dist(abaixo, ache): 10
+	dist(abaixo, achei): 9
+	dist(abaixo, acheias): 10
+	dist(abaixo, acheio): 8
+	dist(abaixo, acheios): 9
+	dist(abaixo, aches): 10
+	dist(abaixo, acho): 9
+	dist(abaixo, achou): 10
+	dist(abaixo, achoua): 11
+	dist(abaixo, acima): 9
+	dist(abaixo, acto): 8
+	dist(abaixo, actor): 9
+	dist(abaixo, actos): 9
+	dist(abaixo, adeante): 11
+	dist(abaixo, adeus): 8
+	dist(abaixo, adiante): 12
+	dist(abaixo, afinal): 10
+	dist(abaixo, ainda): 8
+	dist(abaixo, algo): 8
+	dist(abaixo, alheia): 10
+	dist(abaixo, alheias): 11
+	dist(abaixo, alheio): 9
+	dist(abaixo, alia): 7
+	dist(abaixo, alma): 8
+	dist(abaixo, almas): 9
+	dist(abaixo, alta): 7
+	dist(abaixo, altar): 8
+	dist(abaixo, altas): 8
+	dist(abaixo, alto): 7
+	dist(abaixo, altos): 8
+	dist(abaixo, alva): 7
+	dist(abaixo, amai): 9
+	dist(abaixo, amam): 9
+	dist(abaixo, amar): 8
+	dist(abaixo, amei): 10
+	dist(abaixo, amor): 8
+	dist(abaixo, amou): 7
+	dist(abaixo, anda): 7
+	dist(abaixo, andam): 8
+	dist(abaixo, andar): 8
+	dist(abaixo, andaram): 12
+	dist(abaixo, andava): 10
+	dist(abaixo, andavam): 11
+	dist(abaixo, ande): 7
+	dist(abaixo, andei): 8
+	dist(abaixo, ando): 6
+	dist(abaixo, andou): 7
+	dist(abaixo, anjo): 7
+	dist(abaixo, anjos): 8
+	dist(abaixo, anno): 7
+	dist(abaixo, annos): 8
+	dist(abaixo, antes): 12
+	dist(abaixo, anuo): 7
+	dist(abaixo, aonde): 8
+	dist(abaixo, apagar): 9
+	dist(abaixo, apagou): 12
+	dist(abaixo, apenas): 10
+	dist(abaixo, aperto): 8
+	dist(abaixo, apertou): 9
+	dist(abaixo, apesar): 12
+	dist(abaixo, apezar): 11
+	dist(abaixo, aponta): 9
+	dist(abaixo, apontar): 10
+	dist(abaixo, aposta): 10
+	dist(abaixo, ardia): 7
+	dist(abaixo, ardiam): 8
+	dist(abaixo, ares): 12
+	dist(abaixo, aria): 6
+	dist(abaixo, arido): 7
+	dist(abaixo, armas): 10
+
+Palavras que estão em um ciclo
+	aberta
+	abertas
+	aberto
+	abertos
+	aborrece
+	aborrecem
+	aborrecer
+	abra
+	abraço
+	abraços
+	abri
+	abria
+	abrigado
+	abril
+	abrir
+	abrira
+	abriu
+	acaba
+	acabam
+	acabar
+	acabas
+	acabo
+	acaso
+	acha
+	acham
+	achar
+	achas
+	achava
+	achavaa
+	achavam
+	achavao
+	ache
+	achei
+	acheias
+	acheio
+	acheios
+	aches
+	acho
+	acto
+	actor
+	actos
+	acudi
+	acudia
+	acudir
+	acudiu
+	adivinhai
+	adivinham
+	adivinhar
+	affligia
+	affligir
+	affligira
+	agua
+	aguas
+	ainda
+	alheia
+	alheias
+	alheio
+	alia
+	alma
+	almas
+	alta
+	altar
+	altas
+	altitude
+	altitudes
+	alto
+	altos
+	alva
+	amada
+	amado
+	amai
+	amam
+	amar
+	ameaça
+	ameaçar
+	ameaças
+	amiga
+	amigas
+	amigo
+	amigos
+	amor
+	amou
+	amuada
+	amuado
+	anda
+	andam
+	andar
+	andasse
+	andassem
+	ande
+	andei
+	ando
+	anjo
+	anjos
+	anno
+	annos
+	antiga
+	antigas
+	antigo
+	antigos
+
+Duplas de palavras que estão em um ciclo
+	aberta, abertas
+	aberta, aberto
+	aberta, abertos
+	abertas, aberto
+	abertas, abertos
+	aberto, abertos
+	aborrece, aborrecem
+	aborrece, aborrecer
+	aborrecem, aborrecer
+	abra, abri
+	abra, abria
+	abra, abril
+	abra, abrir
+	abra, abrira
+	abra, abriu
+	abra, acabo
+	abra, acaso
+	abra, acha
+	abra, acham
+	abra, achar
+	abra, achas
+	abra, ache
+	abra, achei
+	abra, acheias
+	abra, acheio
+	abra, acheios
+	abra, aches
+	abra, acho
+	abra, acto
+	abra, actor
+	abra, actos
+	abra, ainda
+	abra, alheia
+	abra, alheias
+	abra, alheio
+	abra, alia
+	abra, alma
+	abra, almas
+	abra, alta
+	abra, altar
+	abra, altas
+	abra, alto
+	abra, altos
+	abra, alva
+	abra, amai
+	abra, amam
+	abra, amar
+	abra, amor
+	abra, amou
+	abra, anda
+	abra, andam
+	abra, andar
+	abra, ande
+	abra, andei
+	abra, ando
+	abra, anjo
+	abra, anjos
+	abra, anno
+	abra, annos
+	abra, anuo
+	abra, aonde
+	abra, ares
+	abra, aria
+	abra, arte
+	abra, atar
+	abra, atou
+	abra, atra
+	abra, atraz
+	abra, aula
+	abra, autor
+	abra, autos
+	abra, aves
+	abra, baio
+	abra, basta
+	abra, bastam
+	abra, bastar
+	abra, baste
+	abra, bastos
+	abra, bastou
+	abra, bella
+	abra, bellas
+	abra, bello
+	abra, bellos
+	abra, bens
+	abra, bento
+	abra, besta
+	abra, bestas
+	abra, boas
+	abra, bodas
+	abra, bolas
+	abra, bons
+	abra, borda
+	abra, bordo
+	abra, botar
+	abra, botas
+	abra, botes
+	abra, brio
+	abra, busto
+	abra, bustos
+	abra, cabe
+

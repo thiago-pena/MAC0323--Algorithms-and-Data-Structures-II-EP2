@@ -1,0 +1,196 @@
+Número de vértices: 48
+Número de arestas: 21
+
+Número de componentes conexas: 31
+O grafo é conexo? 0
+Tamanho da menor componente conexa: 1
+Tamanho da maior componente conexa: 11
+Tamanho médio das componentes conexas: 1.54839
+Grau médio dos vértices: 0.875
+
+Tamanho da componente conexa de uma palavra (casos maiores que 1)
+	alta: 2
+	ata: 2
+	bala: 2
+	balas: 2
+	bota: 11
+	caminho: 2
+	caminhos: 2
+	casa: 2
+	casca: 2
+	coisa: 2
+	cousa: 2
+	gato: 11
+	marca: 2
+	marica: 2
+	mato: 11
+	nato: 11
+	nota: 11
+	porta: 2
+	portao: 2
+	prata: 11
+	prato: 11
+	preta: 11
+	rato: 11
+	toba: 11
+	tona: 11
+
+Distância entre palavras que estão na mesma componente conexa
+	dist(alta, ata): 1
+	dist(bala, balas): 1
+	dist(bota, gato): 3
+	dist(bota, mato): 3
+	dist(bota, nato): 2
+	dist(bota, nota): 1
+	dist(bota, prata): 5
+	dist(bota, prato): 4
+	dist(bota, preta): 6
+	dist(bota, rato): 3
+	dist(bota, toba): 1
+	dist(bota, tona): 2
+	dist(caminho, caminhos): 1
+	dist(casa, casca): 1
+	dist(coisa, cousa): 1
+	dist(gato, mato): 1
+	dist(gato, nato): 1
+	dist(gato, nota): 2
+	dist(gato, prata): 3
+	dist(gato, prato): 2
+	dist(gato, preta): 4
+	dist(gato, rato): 1
+	dist(gato, toba): 4
+	dist(gato, tona): 3
+	dist(marca, marica): 1
+	dist(mato, nato): 1
+	dist(mato, nota): 2
+	dist(mato, prata): 3
+	dist(mato, prato): 2
+	dist(mato, preta): 4
+	dist(mato, rato): 1
+	dist(mato, toba): 4
+	dist(mato, tona): 3
+	dist(nato, nota): 1
+	dist(nato, prata): 3
+	dist(nato, prato): 2
+	dist(nato, preta): 4
+	dist(nato, rato): 1
+	dist(nato, toba): 3
+	dist(nato, tona): 2
+	dist(nota, prata): 4
+	dist(nota, prato): 3
+	dist(nota, preta): 5
+	dist(nota, rato): 2
+	dist(nota, toba): 2
+	dist(nota, tona): 1
+	dist(porta, portao): 1
+	dist(prata, prato): 1
+	dist(prata, preta): 1
+	dist(prata, rato): 2
+	dist(prata, toba): 6
+	dist(prata, tona): 5
+	dist(prato, preta): 2
+	dist(prato, rato): 1
+	dist(prato, toba): 5
+	dist(prato, tona): 4
+	dist(preta, rato): 3
+	dist(preta, toba): 7
+	dist(preta, tona): 6
+	dist(rato, toba): 4
+	dist(rato, tona): 3
+	dist(toba, tona): 1
+
+Palavras que estão em um ciclo
+	bota
+	gato
+	mato
+	nato
+	nota
+	rato
+	toba
+	tona
+
+Duplas de palavras que estão em um ciclo
+	bota, nota
+	bota, toba
+	bota, tona
+	gato, mato
+	gato, nato
+	gato, rato
+	mato, nato
+	mato, rato
+	nato, rato
+	nota, toba
+	nota, tona
+	toba, tona
+
+*vertices 48
+1 abajur
+2 alta
+3 amor
+4 ata
+5 bala
+6 balas
+7 bolo
+8 bota
+9 cadeira
+10 caminho
+11 caminhos
+12 carro
+13 casa
+14 casca
+15 coberta
+16 cobertor
+17 coisa
+18 cola
+19 computador
+20 cousa
+21 fruta
+22 gato
+23 jornal
+24 lodo
+25 maior
+26 marca
+27 marica
+28 mato
+29 menor
+30 monitor
+31 nato
+32 ninho
+33 nota
+34 porta
+35 portao
+36 prata
+37 prato
+38 preta
+39 rato
+40 ratoeira
+41 revista
+42 roma
+43 sinal
+44 televisão
+45 toba
+46 tona
+47 trem
+48 árvore
+*edges
+2 4
+5 6
+8 45
+8 33
+10 11
+13 14
+17 20
+22 39
+22 31
+22 28
+26 27
+28 39
+28 31
+31 39
+31 33
+33 46
+34 35
+36 38
+36 37
+37 39
+45 46

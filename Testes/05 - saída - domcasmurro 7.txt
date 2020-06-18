@@ -1,0 +1,418 @@
+Número de vértices: 6364
+Número de arestas: 1674
+
+Número de componentes conexas: 4860
+O grafo é conexo? 0
+Tamanho da menor componente conexa: 1
+Tamanho da maior componente conexa: 21
+Tamanho médio das componentes conexas: 1.30947
+Grau médio dos vértices: 0.526084
+
+Tamanho da componente conexa de uma palavra (casos maiores que 1)
+	abafado: 3
+	abafando: 3
+	abafava: 2
+	abanando: 3
+	abanava: 2
+	abatida: 2
+	abatido: 2
+	abençoa: 2
+	abençoar: 2
+	abertas: 2
+	abertos: 2
+	aborrece: 3
+	aborrecem: 3
+	aborrecer: 3
+	aborrecida: 2
+	aborrecido: 2
+	abotoada: 2
+	abotoado: 2
+	abraço: 3
+	abraços: 3
+	abriame: 2
+	abriase: 2
+	abrigado: 6
+	abrilos: 2
+	abrimos: 2
+	acabada: 7
+	acabadas: 7
+	acabado: 7
+	acabando: 7
+	acabaram: 7
+	acabasse: 2
+	acabassem: 2
+	acabava: 7
+	acabavam: 7
+	acanhada: 4
+	acanhado: 4
+	acceita: 4
+	acceitala: 2
+	acceitalo: 2
+	acceitar: 4
+	acceito: 4
+	acceitou: 4
+	accender: 3
+	accendeu: 3
+	accendi: 2
+	accendia: 2
+	accendou: 3
+	accordado: 2
+	accordando: 2
+	acertado: 11
+	acharam: 6
+	achardes: 2
+	achares: 2
+	achasse: 2
+	achaste: 2
+	achavaa: 6
+	achavam: 6
+	achavame: 6
+	achavamme: 6
+	achavao: 6
+	acheias: 3
+	acheios: 3
+	acompanhado: 3
+	acompanhalo: 3
+	acompanham: 4
+	acompanhando: 3
+	acompanhar: 4
+	acompanhara: 4
+	acompanhava: 4
+	acontecer: 2
+	aconteceu: 2
+	acontecimento: 2
+	acontecimentos: 2
+	acostumada: 6
+	acostumado: 6
+	acostumados: 6
+	acostumando: 6
+	acostumarse: 2
+	acostumasse: 2
+	acredita: 3
+	acreditam: 3
+	acredite: 3
+	acudisse: 4
+	acudissem: 4
+	adeante: 2
+	adequada: 3
+	adequadas: 3
+	adequado: 3
+	adiante: 2
+	adivinhado: 2
+	adivinhai: 4
+	adivinham: 4
+	adivinhando: 2
+	adivinhar: 4
+	adivinhei: 4
+	adolescente: 2
+	adolescentes: 2
+	adversa: 2
+	adverso: 2
+	adverti: 2
+
+Distância entre palavras que estão na mesma componente conexa
+	dist(abafado, abafando): 1
+	dist(abafado, abanando): 2
+	dist(abafando, abanando): 1
+	dist(abafava, abanava): 1
+	dist(abatida, abatido): 1
+	dist(abençoa, abençoar): 1
+	dist(abertas, abertos): 1
+	dist(aborrece, aborrecem): 1
+	dist(aborrece, aborrecer): 1
+	dist(aborrecem, aborrecer): 1
+	dist(aborrecida, aborrecido): 1
+	dist(abotoada, abotoado): 1
+	dist(abraço, abraços): 1
+	dist(abraço, braços): 2
+	dist(abraços, braços): 1
+	dist(abriame, abriase): 1
+	dist(abrigado, obrigada): 1
+	dist(abrigado, obrigado): 1
+	dist(abrigado, obrigala): 2
+	dist(abrigado, obrigando): 2
+	dist(abrigado, obrigava): 2
+	dist(abrilos, abrimos): 1
+	dist(acabada, acabadas): 1
+	dist(acabada, acabado): 1
+	dist(acabada, acabando): 2
+	dist(acabada, acabaram): 3
+	dist(acabada, acabava): 1
+	dist(acabada, acabavam): 2
+	dist(acabadas, acabado): 2
+	dist(acabadas, acabando): 3
+	dist(acabadas, acabaram): 4
+	dist(acabadas, acabava): 2
+	dist(acabadas, acabavam): 3
+	dist(acabado, acabando): 1
+	dist(acabado, acabaram): 4
+	dist(acabado, acabava): 2
+	dist(acabado, acabavam): 3
+	dist(acabando, acabaram): 5
+	dist(acabando, acabava): 3
+	dist(acabando, acabavam): 4
+	dist(acabaram, acabava): 2
+	dist(acabaram, acabavam): 1
+	dist(acabasse, acabassem): 1
+	dist(acabava, acabavam): 1
+	dist(acanhada, acanhado): 1
+	dist(acanhada, apanhado): 2
+	dist(acanhada, apanhados): 3
+	dist(acanhado, apanhado): 1
+	dist(acanhado, apanhados): 2
+	dist(acceita, acceitar): 1
+	dist(acceita, acceito): 1
+	dist(acceita, acceitou): 2
+	dist(acceitala, acceitalo): 1
+	dist(acceitar, acceito): 2
+	dist(acceitar, acceitou): 3
+	dist(acceito, acceitou): 1
+	dist(accender, accendeu): 1
+	dist(accender, accendou): 2
+	dist(accendeu, accendou): 1
+	dist(accendi, accendia): 1
+	dist(accordado, accordando): 1
+	dist(acertado, apertada): 2
+	dist(acertado, apertadas): 3
+	dist(acertado, apertado): 1
+	dist(acertado, apertala): 3
+	dist(acertado, apertalo): 2
+	dist(acertado, apertalos): 3
+	dist(acertado, apertando): 2
+	dist(acertado, apertava): 3
+	dist(acertado, apertavam): 4
+	dist(acertado, apertavame): 5
+	dist(acharam, achavaa): 2
+	dist(acharam, achavam): 1
+	dist(acharam, achavame): 2
+	dist(acharam, achavamme): 3
+	dist(acharam, achavao): 2
+	dist(achardes, achares): 1
+	dist(achasse, achaste): 1
+	dist(achavaa, achavam): 1
+	dist(achavaa, achavame): 2
+	dist(achavaa, achavamme): 3
+	dist(achavaa, achavao): 1
+	dist(achavam, achavame): 1
+	dist(achavam, achavamme): 2
+	dist(achavam, achavao): 1
+	dist(achavame, achavamme): 1
+	dist(achavame, achavao): 2
+	dist(achavamme, achavao): 3
+	dist(acheias, acheios): 1
+	dist(acheias, alheias): 1
+	dist(acheios, alheias): 2
+	dist(acompanhado, acompanhalo): 1
+	dist(acompanhado, acompanhando): 1
+	dist(acompanhalo, acompanhando): 2
+	dist(acompanham, acompanhar): 1
+	dist(acompanham, acompanhara): 2
+	dist(acompanham, acompanhava): 3
+	dist(acompanhar, acompanhara): 1
+	dist(acompanhar, acompanhava): 2
+	dist(acompanhara, acompanhava): 1
+
+Palavras que estão em um ciclo
+	aborrece
+	aborrecem
+	aborrecer
+	abrigado
+	achavaa
+	achavam
+	achavao
+	adivinhai
+	adivinham
+	adivinhar
+	affligia
+	affligir
+	affligira
+	altitude
+	altitudes
+	ameaça
+	ameaçar
+	ameaças
+	andasse
+	andassem
+	apertada
+	apertado
+	apertala
+	apertalo
+	apertava
+	apparecem
+	apparecer
+	appareceu
+	apprende
+	apprendem
+	apprender
+	apprendeu
+	aquella
+	aquellas
+	aquelle
+	aquelles
+	aquillo
+	assistia
+	assistir
+	assistiu
+	atirarse
+	atirase
+	atirasse
+	attitude
+	attitudes
+	caladas
+	calados
+	calçada
+	calçava
+	caminho
+	caminhos
+	caminhou
+	cantado
+	cantando
+	cançada
+	cançado
+	cançava
+	carinho
+	carinhos
+	casadas
+	casados
+	chamada
+	chamala
+	chamava
+	chegada
+	chegara
+	chegaram
+	chegava
+	chegavam
+	commigo
+	companheira
+	companheiras
+	companheiro
+	companheiros
+	comparado
+	comparando
+	comprado
+	comprando
+	comsigo
+	comtigo
+	conclui
+	concluia
+	concluir
+	concluiu
+	confesso
+	confessor
+	confessou
+	confusa
+	confusas
+	confuso
+	confusos
+	conhece
+	conhecer
+	conheceu
+	conheci
+	conhecia
+	conhecida
+	conhecidas
+	conhecido
+	conhecidos
+
+Duplas de palavras que estão em um ciclo
+	aborrece, aborrecem
+	aborrece, aborrecer
+	aborrecem, aborrecer
+	abrigado, obrigada
+	abrigado, obrigado
+	abrigado, obrigala
+	abrigado, obrigava
+	achavaa, achavam
+	achavaa, achavao
+	achavam, achavao
+	adivinhai, adivinham
+	adivinhai, adivinhar
+	adivinham, adivinhar
+	affligia, affligir
+	affligia, affligira
+	affligir, affligira
+	altitude, altitudes
+	altitude, attitude
+	altitude, attitudes
+	altitudes, attitude
+	altitudes, attitudes
+	ameaça, ameaçar
+	ameaça, ameaças
+	ameaçar, ameaças
+	andasse, andassem
+	andasse, mandasse
+	andasse, mandassem
+	andassem, mandasse
+	andassem, mandassem
+	apertada, apertado
+	apertada, apertala
+	apertada, apertalo
+	apertada, apertava
+	apertado, apertala
+	apertado, apertalo
+	apertado, apertava
+	apertala, apertalo
+	apertala, apertava
+	apertalo, apertava
+	apparecem, apparecer
+	apparecem, appareceu
+	apparecer, appareceu
+	apprende, apprendem
+	apprende, apprender
+	apprende, apprendeu
+	apprendem, apprender
+	apprendem, apprendeu
+	apprender, apprendeu
+	aquella, aquellas
+	aquella, aquelle
+	aquella, aquelles
+	aquella, daquella
+	aquella, daquellas
+	aquella, daquelle
+	aquella, daquelles
+	aquella, naquella
+	aquella, naquellas
+	aquella, naquelle
+	aquella, naquelles
+	aquellas, aquelle
+	aquellas, aquelles
+	aquellas, daquella
+	aquellas, daquellas
+	aquellas, daquelle
+	aquellas, daquelles
+	aquellas, naquella
+	aquellas, naquellas
+	aquellas, naquelle
+	aquellas, naquelles
+	aquelle, aquelles
+	aquelle, daquella
+	aquelle, daquellas
+	aquelle, daquelle
+	aquelle, daquelles
+	aquelle, naquella
+	aquelle, naquellas
+	aquelle, naquelle
+	aquelle, naquelles
+	aquelles, daquella
+	aquelles, daquellas
+	aquelles, daquelle
+	aquelles, daquelles
+	aquelles, naquella
+	aquelles, naquellas
+	aquelles, naquelle
+	aquelles, naquelles
+	aquillo, daquillo
+	aquillo, naquillo
+	assistia, assistir
+	assistia, assistiu
+	assistir, assistiu
+	atirarse, atirase
+	atirarse, atirasse
+	atirase, atirasse
+	attitude, attitudes
+	caladas, calados
+	caladas, casadas
+	caladas, casados
+	calados, casadas
+	calados, casados
+

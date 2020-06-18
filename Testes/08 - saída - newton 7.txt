@@ -1,0 +1,418 @@
+Número de vértices: 7748
+Número de arestas: 3934
+
+Número de componentes conexas: 4620
+O grafo é conexo? 0
+Tamanho da menor componente conexa: 1
+Tamanho da maior componente conexa: 20
+Tamanho médio das componentes conexas: 1.67706
+Grau médio dos vértices: 1.01549
+
+Tamanho da componente conexa de uma palavra (casos maiores que 1)
+	aberrat: 2
+	aberret: 2
+	abeunte: 2
+	abeuntem: 2
+	abscindantur: 3
+	abscindat: 7
+	abscindatur: 3
+	abscinde: 7
+	abscindens: 7
+	abscindent: 7
+	abscindet: 7
+	abscinditur: 3
+	abscindo: 7
+	abscissa: 4
+	abscissam: 4
+	abscisse: 4
+	abscissi: 4
+	abscondi: 7
+	absoluta: 9
+	absolutam: 9
+	absolutas: 9
+	absolute: 9
+	absoluti: 9
+	absolutis: 9
+	absoluto: 9
+	absolutum: 9
+	absolutus: 9
+	absolutæ: 2
+	absolutè: 2
+	accedant: 10
+	accedat: 10
+	accedendi: 2
+	accedendo: 2
+	accedent: 10
+	accedente: 10
+	accedentem: 10
+	accedere: 10
+	accederet: 10
+	accedet: 10
+	accedit: 10
+	accedunt: 10
+	accelerabantur: 4
+	accelerabatur: 4
+	accelerabitur: 4
+	accelerabuntur: 4
+	accelerantur: 9
+	accelerat: 9
+	accelerata: 9
+	acceleratio: 9
+	acceleratione: 4
+	accelerationem: 4
+	accelerationes: 4
+	accelerationis: 4
+	acceleratis: 9
+	accelerato: 9
+	acceleratrice: 6
+	acceleratricem: 6
+	acceleratrices: 6
+	acceleratrici: 6
+	acceleratricis: 6
+	acceleratricum: 6
+	acceleratur: 9
+	acceleratus: 9
+	acceleretur: 9
+	accendant: 10
+	accendere: 10
+	accepit: 10
+	accessu: 3
+	accessum: 3
+	accessus: 3
+	accipiant: 2
+	accipiat: 2
+	accurata: 8
+	accuratam: 8
+	accuratas: 8
+	accurate: 8
+	accuratis: 8
+	accuratius: 8
+	accurato: 8
+	accuratum: 8
+	accuratæ: 2
+	accuratè: 2
+	acquirant: 6
+	acquirat: 6
+	acquirent: 6
+	acquirere: 2
+	acquireret: 2
+	acquiret: 6
+	acquirit: 6
+	acquirunt: 6
+	acquisierit: 2
+	acquisiverit: 2
+	actarum: 6
+	actione: 7
+	actionem: 7
+	actiones: 7
+	actioni: 7
+	actionis: 7
+	actionum: 7
+	actorum: 6
+
+Distância entre palavras que estão na mesma componente conexa
+	dist(aberrat, aberret): 1
+	dist(abeunte, abeuntem): 1
+	dist(abscindantur, abscindatur): 1
+	dist(abscindantur, abscinditur): 2
+	dist(abscindat, abscinde): 2
+	dist(abscindat, abscindens): 3
+	dist(abscindat, abscindent): 2
+	dist(abscindat, abscindet): 1
+	dist(abscindat, abscindo): 3
+	dist(abscindat, abscondi): 4
+	dist(abscindatur, abscinditur): 1
+	dist(abscinde, abscindens): 3
+	dist(abscinde, abscindent): 2
+	dist(abscinde, abscindet): 1
+	dist(abscinde, abscindo): 1
+	dist(abscinde, abscondi): 2
+	dist(abscindens, abscindent): 1
+	dist(abscindens, abscindet): 2
+	dist(abscindens, abscindo): 4
+	dist(abscindens, abscondi): 5
+	dist(abscindent, abscindet): 1
+	dist(abscindent, abscindo): 3
+	dist(abscindent, abscondi): 4
+	dist(abscindet, abscindo): 2
+	dist(abscindet, abscondi): 3
+	dist(abscindo, abscondi): 1
+	dist(abscissa, abscissam): 1
+	dist(abscissa, abscisse): 1
+	dist(abscissa, abscissi): 1
+	dist(abscissam, abscisse): 2
+	dist(abscissam, abscissi): 2
+	dist(abscisse, abscissi): 1
+	dist(absoluta, absolutam): 1
+	dist(absoluta, absolutas): 1
+	dist(absoluta, absolute): 1
+	dist(absoluta, absoluti): 1
+	dist(absoluta, absolutis): 2
+	dist(absoluta, absoluto): 1
+	dist(absoluta, absolutum): 2
+	dist(absoluta, absolutus): 2
+	dist(absolutam, absolutas): 1
+	dist(absolutam, absolute): 2
+	dist(absolutam, absoluti): 2
+	dist(absolutam, absolutis): 2
+	dist(absolutam, absoluto): 2
+	dist(absolutam, absolutum): 1
+	dist(absolutam, absolutus): 2
+	dist(absolutas, absolute): 2
+	dist(absolutas, absoluti): 2
+	dist(absolutas, absolutis): 1
+	dist(absolutas, absoluto): 2
+	dist(absolutas, absolutum): 2
+	dist(absolutas, absolutus): 1
+	dist(absolute, absoluti): 1
+	dist(absolute, absolutis): 2
+	dist(absolute, absoluto): 1
+	dist(absolute, absolutum): 3
+	dist(absolute, absolutus): 3
+	dist(absoluti, absolutis): 1
+	dist(absoluti, absoluto): 1
+	dist(absoluti, absolutum): 3
+	dist(absoluti, absolutus): 2
+	dist(absolutis, absoluto): 2
+	dist(absolutis, absolutum): 2
+	dist(absolutis, absolutus): 1
+	dist(absoluto, absolutum): 3
+	dist(absoluto, absolutus): 3
+	dist(absolutum, absolutus): 1
+	dist(absolutæ, absolutè): 1
+	dist(accedant, accedat): 1
+	dist(accedant, accedent): 1
+	dist(accedant, accedente): 2
+	dist(accedant, accedentem): 3
+	dist(accedant, accedet): 2
+	dist(accedant, accedit): 2
+	dist(accedant, accedunt): 1
+	dist(accedant, accendant): 1
+	dist(accedant, accepit): 3
+	dist(accedat, accedent): 2
+	dist(accedat, accedente): 3
+	dist(accedat, accedentem): 4
+	dist(accedat, accedet): 1
+	dist(accedat, accedit): 1
+	dist(accedat, accedunt): 2
+	dist(accedat, accendant): 2
+	dist(accedat, accepit): 2
+	dist(accedendi, accedendo): 1
+	dist(accedent, accedente): 1
+	dist(accedent, accedentem): 2
+	dist(accedent, accedet): 1
+	dist(accedent, accedit): 2
+	dist(accedent, accedunt): 1
+	dist(accedent, accendant): 2
+	dist(accedent, accepit): 3
+	dist(accedente, accedentem): 1
+	dist(accedente, accedet): 2
+	dist(accedente, accedit): 3
+	dist(accedente, accedunt): 2
+	dist(accedente, accendant): 3
+	dist(accedente, accepit): 4
+
+Palavras que estão em um ciclo
+	abscissa
+	abscisse
+	abscissi
+	absoluta
+	absolutam
+	absolutas
+	absolute
+	absoluti
+	absolutis
+	absoluto
+	absolutum
+	absolutus
+	accedant
+	accedat
+	accedent
+	accedet
+	accedit
+	accedunt
+	accelerat
+	accelerata
+	acceleratione
+	accelerationem
+	accelerationes
+	accelerato
+	acceleratrice
+	acceleratricem
+	acceleratrices
+	acceleratrici
+	acceleratricis
+	accessu
+	accessum
+	accessus
+	accurata
+	accuratam
+	accuratas
+	accurate
+	accurato
+	acquirant
+	acquirat
+	acquirent
+	acquiret
+	acquirit
+	acquirunt
+	actarum
+	actione
+	actionem
+	actiones
+	actioni
+	actionis
+	actorum
+	adæquat
+	adæquate
+	adæquato
+	affirmativa
+	affirmativi
+	affirmativis
+	affirmativo
+	affirmativos
+	agitantur
+	agitatur
+	agitentur
+	agitetur
+	alteras
+	alteris
+	alterius
+	alternas
+	alternis
+	alternus
+	alteros
+	alterutra
+	alterutri
+	alterutro
+	altitudin
+	altitudine
+	altitudinem
+	altitudines
+	altitudini
+	altitudinis
+	altitudinum
+	amittat
+	amittet
+	amittit
+	analoga
+	analogas
+	analogi
+	analogia
+	analogis
+	analogus
+	angulis
+	angulos
+	angulum
+	angulumq
+	angulus
+	angulusq
+	annulos
+	annulum
+	annulus
+	anteriore
+	anteriores
+	apparent
+
+Duplas de palavras que estão em um ciclo
+	abscissa, abscisse
+	abscissa, abscissi
+	abscisse, abscissi
+	absoluta, absolutam
+	absoluta, absolutas
+	absoluta, absolute
+	absoluta, absoluti
+	absoluta, absolutis
+	absoluta, absoluto
+	absoluta, absolutum
+	absoluta, absolutus
+	absolutam, absolutas
+	absolutam, absolute
+	absolutam, absoluti
+	absolutam, absolutis
+	absolutam, absoluto
+	absolutam, absolutum
+	absolutam, absolutus
+	absolutas, absolute
+	absolutas, absoluti
+	absolutas, absolutis
+	absolutas, absoluto
+	absolutas, absolutum
+	absolutas, absolutus
+	absolute, absoluti
+	absolute, absolutis
+	absolute, absoluto
+	absolute, absolutum
+	absolute, absolutus
+	absoluti, absolutis
+	absoluti, absoluto
+	absoluti, absolutum
+	absoluti, absolutus
+	absolutis, absoluto
+	absolutis, absolutum
+	absolutis, absolutus
+	absoluto, absolutum
+	absoluto, absolutus
+	absolutum, absolutus
+	accedant, accedat
+	accedant, accedent
+	accedant, accedet
+	accedant, accedit
+	accedant, accedunt
+	accedat, accedent
+	accedat, accedet
+	accedat, accedit
+	accedat, accedunt
+	accedent, accedet
+	accedent, accedit
+	accedent, accedunt
+	accedet, accedit
+	accedet, accedunt
+	accedit, accedunt
+	accelerat, accelerata
+	accelerat, accelerato
+	accelerata, accelerato
+	acceleratione, accelerationem
+	acceleratione, accelerationes
+	accelerationem, accelerationes
+	acceleratrice, acceleratricem
+	acceleratrice, acceleratrices
+	acceleratrice, acceleratrici
+	acceleratrice, acceleratricis
+	acceleratricem, acceleratrices
+	acceleratricem, acceleratrici
+	acceleratricem, acceleratricis
+	acceleratrices, acceleratrici
+	acceleratrices, acceleratricis
+	acceleratrici, acceleratricis
+	accessu, accessum
+	accessu, accessus
+	accessum, accessus
+	accurata, accuratam
+	accurata, accuratas
+	accurata, accurate
+	accurata, accurato
+	accuratam, accuratas
+	accuratam, accurate
+	accuratam, accurato
+	accuratas, accurate
+	accuratas, accurato
+	accurate, accurato
+	acquirant, acquirat
+	acquirant, acquirent
+	acquirant, acquiret
+	acquirant, acquirit
+	acquirant, acquirunt
+	acquirat, acquirent
+	acquirat, acquiret
+	acquirat, acquirit
+	acquirat, acquirunt
+	acquirent, acquiret
+	acquirent, acquirit
+	acquirent, acquirunt
+	acquiret, acquirit
+	acquiret, acquirunt
+	acquirit, acquirunt
+	actarum, actorum
+	actarum, factarum
+

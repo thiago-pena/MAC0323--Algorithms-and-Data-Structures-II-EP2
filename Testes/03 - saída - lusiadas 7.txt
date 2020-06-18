@@ -1,0 +1,418 @@
+Número de vértices: 5738
+Número de arestas: 2050
+
+Número de componentes conexas: 3897
+O grafo é conexo? 0
+Tamanho da menor componente conexa: 1
+Tamanho da maior componente conexa: 20
+Tamanho médio das componentes conexas: 1.47241
+Grau médio dos vértices: 0.714535
+
+Tamanho da componente conexa de uma palavra (casos maiores que 1)
+	abastados: 2
+	abastança: 2
+	abastanças: 2
+	abranda: 4
+	abrandar: 4
+	abrande: 4
+	abrange: 4
+	abrasasse: 2
+	abrasassem: 2
+	abraçado: 2
+	abraçados: 2
+	abraços: 2
+	abrimos: 2
+	abrindo: 2
+	abrindoo: 2
+	abrirmos: 2
+	abundante: 2
+	abundantes: 2
+	acabada: 5
+	acabado: 5
+	acabaram: 5
+	acabasse: 2
+	acabassem: 2
+	acabava: 5
+	acabavam: 5
+	aceitos: 3
+	acendem: 2
+	acendeu: 2
+	acendia: 2
+	acendiam: 2
+	acendidas: 3
+	acendido: 3
+	acendidos: 3
+	acentos: 3
+	achamos: 3
+	acharam: 3
+	acharei: 3
+	acharem: 3
+	acharmos: 3
+	acharse: 2
+	achará: 2
+	acharás: 2
+	achasse: 2
+	achemos: 3
+	acompanhada: 3
+	acompanhado: 3
+	acompanhando: 3
+	acompanharam: 2
+	acompanhavam: 2
+	aconselhara: 2
+	aconselhava: 2
+	acontece: 2
+	aconteceu: 2
+	acostumado: 7
+	acostumados: 7
+	adereça: 2
+	adereçam: 2
+	adianta: 4
+	adiante: 4
+	adivinha: 2
+	adivinhar: 2
+	admirada: 3
+	admirado: 3
+	admirados: 3
+	adorando: 3
+	adormece: 3
+	adormecer: 3
+	adormeces: 3
+	adornada: 3
+	adornado: 3
+	adultério: 2
+	adultérios: 2
+	adversárias: 3
+	adversário: 3
+	adversários: 3
+	adúltera: 2
+	adúltero: 2
+	afamada: 3
+	afamadas: 3
+	afamado: 3
+	afastados: 2
+	afeitos: 3
+	afeiçoada: 3
+	afeiçoado: 3
+	afeiçoados: 3
+	afigurada: 4
+	afiguradas: 4
+	afigurado: 4
+	afigurados: 4
+	africana: 3
+	africanas: 3
+	africano: 3
+	afronta: 2
+	afronte: 2
+	agardecido: 2
+	agasalhado: 3
+	agasalhados: 3
+	agradece: 2
+	agradeceu: 2
+	agradecido: 2
+
+Distância entre palavras que estão na mesma componente conexa
+	dist(abastados, afastados): 1
+	dist(abastança, abastanças): 1
+	dist(abranda, abrandar): 1
+	dist(abranda, abrande): 1
+	dist(abranda, abrange): 2
+	dist(abrandar, abrande): 2
+	dist(abrandar, abrange): 3
+	dist(abrande, abrange): 1
+	dist(abrasasse, abrasassem): 1
+	dist(abraçado, abraçados): 1
+	dist(abraços, braços): 1
+	dist(abrimos, abrirmos): 1
+	dist(abrindo, abrindoo): 1
+	dist(abundante, abundantes): 1
+	dist(acabada, acabado): 1
+	dist(acabada, acabaram): 3
+	dist(acabada, acabava): 1
+	dist(acabada, acabavam): 2
+	dist(acabado, acabaram): 4
+	dist(acabado, acabava): 2
+	dist(acabado, acabavam): 3
+	dist(acabaram, acabava): 2
+	dist(acabaram, acabavam): 1
+	dist(acabasse, acabassem): 1
+	dist(acabava, acabavam): 1
+	dist(aceitos, acentos): 1
+	dist(aceitos, afeitos): 1
+	dist(acendem, acendeu): 1
+	dist(acendia, acendiam): 1
+	dist(acendidas, acendido): 2
+	dist(acendidas, acendidos): 1
+	dist(acendido, acendidos): 1
+	dist(acentos, afeitos): 2
+	dist(achamos, acharmos): 1
+	dist(achamos, achemos): 1
+	dist(acharam, acharei): 2
+	dist(acharam, acharem): 1
+	dist(acharei, acharem): 1
+	dist(acharmos, achemos): 2
+	dist(acharse, achasse): 1
+	dist(achará, acharás): 1
+	dist(acompanhada, acompanhado): 1
+	dist(acompanhada, acompanhando): 2
+	dist(acompanhado, acompanhando): 1
+	dist(acompanharam, acompanhavam): 1
+	dist(aconselhara, aconselhava): 1
+	dist(acontece, aconteceu): 1
+	dist(acostumado, acostumados): 1
+	dist(acostumado, costumada): 2
+	dist(acostumado, costumadas): 3
+	dist(acostumado, costumado): 1
+	dist(acostumado, costumados): 2
+	dist(acostumado, costumava): 3
+	dist(acostumados, costumada): 3
+	dist(acostumados, costumadas): 2
+	dist(acostumados, costumado): 2
+	dist(acostumados, costumados): 1
+	dist(acostumados, costumava): 4
+	dist(adereça, adereçam): 1
+	dist(adianta, adiante): 1
+	dist(adianta, radiante): 2
+	dist(adianta, radiantes): 3
+	dist(adiante, radiante): 1
+	dist(adiante, radiantes): 2
+	dist(adivinha, adivinhar): 1
+	dist(admirada, admirado): 1
+	dist(admirada, admirados): 2
+	dist(admirado, admirados): 1
+	dist(adorando, adornada): 2
+	dist(adorando, adornado): 1
+	dist(adormece, adormecer): 1
+	dist(adormece, adormeces): 1
+	dist(adormecer, adormeces): 1
+	dist(adornada, adornado): 1
+	dist(adultério, adultérios): 1
+	dist(adversárias, adversário): 2
+	dist(adversárias, adversários): 1
+	dist(adversário, adversários): 1
+	dist(adúltera, adúltero): 1
+	dist(afamada, afamadas): 1
+	dist(afamada, afamado): 1
+	dist(afamadas, afamado): 2
+	dist(afeiçoada, afeiçoado): 1
+	dist(afeiçoada, afeiçoados): 2
+	dist(afeiçoado, afeiçoados): 1
+	dist(afigurada, afiguradas): 1
+	dist(afigurada, afigurado): 1
+	dist(afigurada, afigurados): 2
+	dist(afiguradas, afigurado): 2
+	dist(afiguradas, afigurados): 1
+	dist(afigurado, afigurados): 1
+	dist(africana, africanas): 1
+	dist(africana, africano): 1
+	dist(africanas, africano): 2
+	dist(afronta, afronte): 1
+	dist(agardecido, agradecido): 1
+	dist(agasalhado, agasalhados): 1
+	dist(agasalhado, gasalhado): 1
+	dist(agasalhados, gasalhado): 2
+	dist(agradece, agradeceu): 1
+
+Palavras que estão em um ciclo
+	acostumado
+	acostumados
+	adormece
+	adormecer
+	adormeces
+	afigurada
+	afiguradas
+	afigurado
+	afigurados
+	alcança
+	alcançada
+	alcançam
+	alcançar
+	alcançara
+	alcançava
+	alevanta
+	alevantado
+	alevantam
+	alevantando
+	alevantar
+	alevantaram
+	alevantava
+	alevantavam
+	alevante
+	amorosa
+	amorosas
+	amoroso
+	amorosos
+	aparece
+	aparecem
+	apareceu
+	apartava
+	apartavam
+	apertava
+	apertavam
+	aposento
+	aposentos
+	aposentou
+	aprende
+	aprendem
+	aprendeu
+	aqueles
+	arábia
+	arábias
+	arábica
+	arábicas
+	arábico
+	arábio
+	assenta
+	assente
+	assento
+	assentos
+	assentou
+	aventura
+	aventurar
+	aventuras
+	aventureira
+	aventureiras
+	aventureiro
+	aventureiros
+	belicosa
+	belicosas
+	belicoso
+	belicosos
+	cansada
+	cansado
+	cantada
+	cantado
+	cantando
+	cantara
+	cantava
+	castelhana
+	castelhanas
+	castelhano
+	castelhanos
+	cegando
+	celebrada
+	celebrara
+	celebrava
+	chamada
+	chamadas
+	chamado
+	chamados
+	chegada
+	chegadas
+	chegado
+	chegados
+	chegara
+	chegaram
+	chegava
+	chegavam
+	cheiros
+	cheirosa
+	cheiroso
+	combate
+	combater
+	combates
+	começo
+	começos
+	começou
+
+Duplas de palavras que estão em um ciclo
+	acostumado, acostumados
+	acostumado, costumada
+	acostumado, costumadas
+	acostumado, costumado
+	acostumado, costumados
+	acostumados, costumada
+	acostumados, costumadas
+	acostumados, costumado
+	acostumados, costumados
+	adormece, adormecer
+	adormece, adormeces
+	adormecer, adormeces
+	afigurada, afiguradas
+	afigurada, afigurado
+	afigurada, afigurados
+	afiguradas, afigurado
+	afiguradas, afigurados
+	afigurado, afigurados
+	alcança, alcançam
+	alcança, alcançar
+	alcançada, alcançara
+	alcançada, alcançava
+	alcançam, alcançar
+	alcançara, alcançava
+	alevanta, alevantam
+	alevanta, alevantar
+	alevanta, alevante
+	alevanta, levanta
+	alevanta, levantam
+	alevanta, levante
+	alevantado, alevantando
+	alevantado, levantado
+	alevantado, levantando
+	alevantam, alevantar
+	alevantam, alevante
+	alevantam, levanta
+	alevantam, levantam
+	alevantam, levante
+	alevantando, levantado
+	alevantando, levantando
+	alevantar, alevante
+	alevantar, levanta
+	alevantar, levantam
+	alevantar, levante
+	alevantaram, alevantava
+	alevantaram, alevantavam
+	alevantaram, levantaram
+	alevantaram, levantava
+	alevantaram, levantavam
+	alevantava, alevantavam
+	alevantava, levantaram
+	alevantava, levantava
+	alevantava, levantavam
+	alevantavam, levantaram
+	alevantavam, levantava
+	alevantavam, levantavam
+	alevante, levanta
+	alevante, levantam
+	alevante, levante
+	amorosa, amorosas
+	amorosa, amoroso
+	amorosa, amorosos
+	amorosas, amoroso
+	amorosas, amorosos
+	amoroso, amorosos
+	aparece, aparecem
+	aparece, apareceu
+	aparece, parecem
+	aparece, pareceo
+	aparece, parecer
+	aparece, pareceu
+	aparecem, apareceu
+	aparecem, parecem
+	aparecem, pareceo
+	aparecem, parecer
+	aparecem, pareceu
+	apareceu, parecem
+	apareceu, pareceo
+	apareceu, parecer
+	apareceu, pareceu
+	apartava, apartavam
+	apartava, apertava
+	apartava, apertavam
+	apartavam, apertava
+	apartavam, apertavam
+	apertava, apertavam
+	aposento, aposentos
+	aposento, aposentou
+	aposentos, aposentou
+	aprende, aprendem
+	aprende, aprendeu
+	aprendem, aprendeu
+	aqueles, daquela
+	aqueles, daquele
+	aqueles, daqueles
+	aqueles, naquela
+	aqueles, naquele
+	aqueles, naqueles
+	arábia, arábias
+	arábia, arábica
+

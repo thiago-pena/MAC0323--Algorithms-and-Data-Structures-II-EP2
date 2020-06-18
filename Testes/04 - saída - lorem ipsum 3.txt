@@ -1,0 +1,106 @@
+Número de vértices: 230
+Número de arestas: 26
+
+Número de componentes conexas: 205
+O grafo é conexo? 0
+Tamanho da menor componente conexa: 1
+Tamanho da maior componente conexa: 6
+Tamanho médio das componentes conexas: 1.12195
+Grau médio dos vértices: 0.226087
+
+Tamanho da componente conexa de uma palavra (casos maiores que 1)
+	boa: 2
+	bota: 2
+	cevadis: 2
+	cevadiss: 2
+	dia: 2
+	diam: 2
+	gatis: 4
+	interessantis: 2
+	interessantiss: 2
+	leo: 2
+	levo: 2
+	lá: 2
+	mais: 4
+	mas: 4
+	matis: 4
+	mé: 2
+	nam: 2
+	nisi: 2
+	nisl: 2
+	num: 2
+	não: 2
+	pode: 2
+	pose: 2
+	preta: 2
+	preto: 2
+	pão: 2
+	pé: 2
+	quam: 6
+	que: 6
+	quem: 6
+	qui: 6
+	quis: 6
+	quo: 6
+	sed: 3
+	sem: 3
+	tem: 3
+	todo: 3
+	toma: 3
+	tomo: 3
+	turmis: 2
+	turpis: 2
+	tá: 2
+
+Distância entre palavras que estão na mesma componente conexa
+	dist(boa, bota): 1
+	dist(cevadis, cevadiss): 1
+	dist(dia, diam): 1
+	dist(gatis, mais): 2
+	dist(gatis, mas): 3
+	dist(gatis, matis): 1
+	dist(interessantis, interessantiss): 1
+	dist(leo, levo): 1
+	dist(lá, tá): 1
+	dist(mais, mas): 1
+	dist(mais, matis): 1
+	dist(mas, matis): 2
+	dist(mé, pé): 1
+	dist(nam, num): 1
+	dist(nisi, nisl): 1
+	dist(não, pão): 1
+	dist(pode, pose): 1
+	dist(preta, preto): 1
+	dist(quam, que): 2
+	dist(quam, quem): 1
+	dist(quam, qui): 3
+	dist(quam, quis): 4
+	dist(quam, quo): 3
+	dist(que, quem): 1
+	dist(que, qui): 1
+	dist(que, quis): 2
+	dist(que, quo): 1
+	dist(quem, qui): 2
+	dist(quem, quis): 3
+	dist(quem, quo): 2
+	dist(qui, quis): 1
+	dist(qui, quo): 1
+	dist(quis, quo): 2
+	dist(sed, sem): 1
+	dist(sed, tem): 2
+	dist(sem, tem): 1
+	dist(todo, toma): 2
+	dist(todo, tomo): 1
+	dist(toma, tomo): 1
+	dist(turmis, turpis): 1
+
+Palavras que estão em um ciclo
+	que
+	qui
+	quo
+
+Duplas de palavras que estão em um ciclo
+	que, qui
+	que, quo
+	qui, quo
+
